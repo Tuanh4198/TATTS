@@ -7,8 +7,6 @@
   --text-dim: #93a0bb;
   --accent: #5b8cff;
   --accent-soft: rgba(91, 140, 255, 0.14);
-  --female: #ff7ab8;
-  --male: #57c8ff;
   --radius: 14px;
   --topbar-h: 68px;
   --player-h: 76px;
@@ -239,19 +237,6 @@ svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width:
 .card-title { min-width: 0; }
 .card-title h3 { margin: 0 0 4px; font-size: 15px; overflow-wrap: anywhere; }
 .card-title .sub { font-size: 12px; color: var(--text-dim); }
-
-.badges { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
-
-.badge {
-  padding: 3px 9px;
-  border-radius: 999px;
-  border: 1px solid var(--border);
-  font-size: 11.5px;
-  color: var(--text-dim);
-}
-
-.badge.female { color: var(--female); border-color: rgba(255, 122, 184, 0.35); }
-.badge.male { color: var(--male); border-color: rgba(87, 200, 255, 0.35); }
 
 .script-toggle {
   margin-top: 12px;

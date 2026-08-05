@@ -3,7 +3,7 @@
 Quét thư mục voices/ -> nén demo .wav sang .mp3 + sinh data/voices.json cho web.
 
 Chạy:  python tools/build_manifest.py
-Yêu cầu: ffmpeg/ffprobe trong PATH, pip install numpy soundfile
+Yêu cầu: ffmpeg và ffprobe trong PATH.
 """
 import json
 import re
@@ -12,9 +12,6 @@ import sys
 import unicodedata
 from pathlib import Path
 
-import numpy as np
-import soundfile as sf
-
 HERE = Path(__file__).resolve().parent.parent
 VOICES_DIR = HERE.parent / "voices"
 AUDIO_OUT = HERE / "audio"
@@ -22,21 +19,6 @@ DATA_OUT = HERE / "data" / "voices.json"
 
 MP3_BITRATE = "64k"
 SCRIPT_PREVIEW_CHARS = 400
-
-# Ngưỡng phân biệt giới tính theo cao độ trung vị (Hz)
-F0_MIN, F0_MAX = 70.0, 400.0
-GENDER_THRESHOLD_HZ = 165.0
-
-# Từ khoá trong tên giọng -> nhãn danh mục
-CATEGORY_RULES = [
-    (("blv", "binh luan"), "Bình luận"),
-    (("tin tuc", "phong vien", "mc "), "MC / Tin tức"),
-    (("truyen", "ngoc ngan", "review"), "Kể chuyện"),
-    (("triet ly",), "Triết lý"),
-    (("chau tinh tri", "gia cat luong", "han tin", "tao thao", "lac phi", "phap van"), "Nhân vật"),
-    (("capcut", "google"), "Giọng AI phổ thông"),
-]
-DEFAULT_CATEGORY = "Giọng đọc"
 
 
 def strip_accents(text: str) -> str:
@@ -49,58 +31,6 @@ def strip_accents(text: str) -> str:
 def slugify(text: str) -> str:
     ascii_text = strip_accents(text).lower()
     return re.sub(r"-+", "-", re.sub(r"[^a-z0-9]+", "-", ascii_text)).strip("-")
-
-
-def categorize(name: str) -> str:
-    plain = strip_accents(name).lower()
-    for keywords, label in CATEGORY_RULES:
-        if any(keyword in plain for keyword in keywords):
-            return label
-    return DEFAULT_CATEGORY
-
-
-def estimate_median_f0(wav_path: Path) -> float | None:
-    """Ước lượng cao độ trung vị bằng autocorrelation trên các khung hữu thanh."""
-    audio, sample_rate = sf.read(str(wav_path), dtype="float32", always_2d=True)
-    signal = audio.mean(axis=1)
-    if signal.size < sample_rate:
-        return None
-
-    frame_len = int(0.04 * sample_rate)
-    hop_len = int(0.02 * sample_rate)
-    min_lag = int(sample_rate / F0_MAX)
-    max_lag = int(sample_rate / F0_MIN)
-
-    frames = [
-        signal[start:start + frame_len]
-        for start in range(0, signal.size - frame_len, hop_len)
-    ]
-    if not frames:
-        return None
-
-    energies = np.array([float(np.sqrt(np.mean(frame ** 2))) for frame in frames])
-    energy_floor = max(energies.max() * 0.15, 1e-4)
-
-    pitches = []
-    for frame, energy in zip(frames, energies):
-        if energy < energy_floor:
-            continue
-        centered = frame - frame.mean()
-        correlation = np.correlate(centered, centered, mode="full")[frame_len - 1:]
-        if correlation[0] <= 0:
-            continue
-        window = correlation[min_lag:max_lag]
-        if window.size == 0:
-            continue
-        lag = int(np.argmax(window)) + min_lag
-        # Chỉ nhận khung có chu kỳ rõ ràng để tránh nhiễu vô thanh
-        if correlation[lag] / correlation[0] < 0.3:
-            continue
-        pitches.append(sample_rate / lag)
-
-    if len(pitches) < 10:
-        return None
-    return float(np.median(pitches))
 
 
 def probe_duration(path: Path) -> float:
@@ -142,19 +72,10 @@ def build_voice_entry(lang_dir: Path, voice_dir: Path) -> dict | None:
     if not mp3_path.exists():
         encode_mp3(wav_path, mp3_path)
 
-    median_f0 = estimate_median_f0(wav_path)
-    if median_f0 is None:
-        gender = "unknown"
-    else:
-        gender = "female" if median_f0 >= GENDER_THRESHOLD_HZ else "male"
-
     return {
         "id": slug,
         "name": name,
         "language": lang_dir.name,
-        "gender": gender,
-        "pitchHz": round(median_f0, 1) if median_f0 else None,
-        "category": categorize(name),
         "audio": f"audio/{slug}.mp3",
         "duration": probe_duration(mp3_path),
         "sizeKb": round(mp3_path.stat().st_size / 1024),
@@ -182,7 +103,7 @@ def main() -> int:
             entry = build_voice_entry(lang_dir, voice_dir)
             if entry:
                 voices.append(entry)
-                print(f"  + {entry['name']:<32} {entry['gender']:<8} {entry['duration']}s  {entry['sizeKb']}KB")
+                print(f"  + {entry['name']:<32} {entry['duration']}s  {entry['sizeKb']}KB")
 
     DATA_OUT.write_text(
         json.dumps({"voices": voices}, ensure_ascii=False, indent=2),

@@ -4,7 +4,6 @@
 
   const DATA_URL = "data/voices.json";
   const SPEEDS = [0.75, 1, 1.25, 1.5];
-  const GENDER_LABELS = { female: "Giọng nữ", male: "Giọng nam", unknown: "Chưa phân loại" };
   const ICON_PLAY = "▶";
   const ICON_PAUSE = "❚❚";
 
@@ -36,7 +35,7 @@
   const state = {
     voices: [],
     visible: [],
-    filters: { query: "", language: null, category: null, gender: null },
+    filters: { query: "", language: null },
     sort: "name",
     currentId: null,
     speedIndex: 1,
@@ -65,13 +64,11 @@
   /* ---------- lọc & sắp xếp ---------- */
 
   function applyFilters() {
-    const { query, language, category, gender } = state.filters;
+    const { query, language } = state.filters;
     const needle = normalize(query.trim());
 
     state.visible = state.voices.filter((voice) => {
       if (language && voice.language !== language) return false;
-      if (category && voice.category !== category) return false;
-      if (gender && voice.gender !== gender) return false;
       if (needle && !normalize(voice.name).includes(needle)) return false;
       return true;
     });
@@ -115,7 +112,7 @@
 
     section.appendChild(makeButton(null, "Tất cả", state.voices.length));
     entries.forEach(([value, count]) => {
-      section.appendChild(makeButton(value, GENDER_LABELS[value] || value, count));
+      section.appendChild(makeButton(value, value, count));
     });
     return section;
   }
@@ -125,11 +122,7 @@
   }
 
   function renderFacets() {
-    el.facets.replaceChildren(
-      buildFacet("Ngôn ngữ", "language", sortedCounts("language")),
-      buildFacet("Giới tính", "gender", sortedCounts("gender")),
-      buildFacet("Danh mục", "category", sortedCounts("category"))
-    );
+    el.facets.replaceChildren(buildFacet("Ngôn ngữ", "language", sortedCounts("language")));
   }
 
   /* ---------- danh sách giọng ---------- */
@@ -151,10 +144,6 @@
           <h3>${name}</h3>
           <div class="sub">${escapeHtml(voice.language)} · ${formatTime(voice.duration)}</div>
         </div>
-      </div>
-      <div class="badges">
-        <span class="badge ${voice.gender}">${GENDER_LABELS[voice.gender] || escapeHtml(voice.gender)}</span>
-        <span class="badge">${escapeHtml(voice.category)}</span>
       </div>
       ${voice.script ? `<button class="script-toggle" type="button" aria-expanded="false" aria-controls="${scriptId}">Xem kịch bản demo</button>
       <p class="script" id="${scriptId}" hidden>${escapeHtml(voice.script)}</p>` : ""}
@@ -211,7 +200,7 @@
 
     el.player.hidden = false;
     el.playerName.textContent = voice.name;
-    el.playerMeta.textContent = `${GENDER_LABELS[voice.gender] || voice.gender} · ${voice.category}`;
+    el.playerMeta.textContent = voice.language;
     el.timeTotal.textContent = formatTime(voice.duration);
     history.replaceState(null, "", `#${id}`);
     refreshPlayButtons();
@@ -295,7 +284,7 @@
     });
 
     el.resetFilters.addEventListener("click", () => {
-      state.filters = { query: "", language: null, category: null, gender: null };
+      state.filters = { query: "", language: null };
       el.search.value = "";
       renderFacets();
       renderGrid();
