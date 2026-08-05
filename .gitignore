@@ -1,0 +1,13 @@
+# KHÔNG BAO GIỜ đưa model / file mã hoá / mã nguồn app lên repo public
+*.onnx
+*.onnx.json
+*.enc
+*.wav
+__pycache__/
+*.pyc
+
+# Rác hệ thống
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
