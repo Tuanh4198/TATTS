@@ -12,6 +12,11 @@ import sys
 import unicodedata
 from pathlib import Path
 
+# Console Windows mặc định cp1252, không in nổi tên giọng có dấu — script chết ngay
+# dòng in đầu tiên dù mọi thứ khác đều đúng.
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+
 HERE = Path(__file__).resolve().parent.parent
 VOICES_DIR = HERE.parent / "voices"
 AUDIO_OUT = HERE / "audio"
