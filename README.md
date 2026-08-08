@@ -1,10 +1,16 @@
 # TATTS — Bộ tổng hợp giọng nói Tiếng Việt chạy trên CPU
 
 Engine text-to-speech tiếng Việt hoạt động **hoàn toàn offline**, **không cần GPU**, đi kèm
-**50+ giọng đọc đã huấn luyện sẵn**. Biến file văn bản, phụ đề, hay bất kỳ đoạn text nào
+**50 giọng đọc đã huấn luyện sẵn**. Biến file văn bản, phụ đề, hay bất kỳ đoạn text nào
 thành audio chất lượng phát hành — trên chính máy của bạn, không giới hạn ký tự, không phí theo lượt.
 
 ### 🎧 Nghe thử toàn bộ kho giọng: **https://tuanh4198.github.io/TATTS/**
+
+### 📦 Dùng thật: module **Giọng Đọc AI** trong app **NTA Tool**
+
+Nghe thử ở trang trên là miễn phí. Muốn dùng để làm việc thì mua module trong app: chọn giọng
+nào tải giọng đó (~64 MB), đọc không giới hạn ký tự, chạy offline trên máy bạn, và có sẵn HTTP
+API để nối vào script hay công cụ khác.
 
 ---
 
@@ -12,7 +18,7 @@ thành audio chất lượng phát hành — trên chính máy của bạn, khô
 
 | | |
 |---|---|
-| 🎭 **50+ giọng Việt sẵn dùng** | Nam, nữ, MC, bình luận viên, kể chuyện, nhân vật — không phải đi thu âm hay train |
+| 🎭 **50 giọng Việt sẵn dùng** | Nam, nữ, MC, bình luận viên, kể chuyện, nhân vật — không phải đi thu âm hay train |
 | ⚡ **Chạy trên CPU, nhanh gấp 16× thời gian thực** | Không CUDA, không card đồ hoạ, không driver |
 | 🔒 **100% offline** | Text không rời khỏi máy. Đọc hợp đồng, bệnh án, tài liệu nội bộ mà không lo rò rỉ |
 | 💸 **Chi phí biên bằng 0** | Đọc cuốn sách 500.000 ký tự cũng miễn phí. Dịch vụ cloud tính tiền từng ký tự |
@@ -173,30 +179,33 @@ Phù hợp cho cộng tác viên nội dung không muốn đụng tới dòng l�
 
 ## Trạng thái dự án
 
-Repo này hiện chứa **thư viện nghe thử giọng** (đã chạy). Phần engine và app đang được
-đóng gói dần theo lộ trình dưới.
+Repo này chứa **thư viện nghe thử giọng**. Engine và app đã có, phát hành dưới dạng
+module **Giọng Đọc AI** trong app **NTA Tool**.
 
 | Hạng mục | Trạng thái |
 |---|---|
 | Engine tổng hợp tiếng Việt (ONNX, CPU) | ✅ Đang chạy |
 | 50 giọng đã huấn luyện | ✅ Đang chạy |
 | Web nghe thử + lọc theo ngôn ngữ | ✅ Đang chạy |
-| App desktop (giao diện Tkinter) | ✅ Bản nội bộ |
-| Đọc file `.txt` hàng loạt | ✅ Qua CLI |
+| **App desktop — module trong NTA Tool** | ✅ Đang chạy |
+| **Tải giọng theo nhu cầu** (~64 MB/giọng) | ✅ Đang chạy |
+| **HTTP API tương thích OpenAI** | ✅ Đang chạy |
+| Đọc file `.txt` hàng loạt | 🔨 Đang làm |
 | Lồng tiếng `.srt` khớp timeline | 🔨 Đang làm |
-| Kịch bản nhiều nhân vật | 🔨 Đang làm |
-| HTTP API tương thích OpenAI | 📋 Kế hoạch |
+| Kịch bản nhiều nhân vật | 📋 Kế hoạch |
 | Xuất MP3 kèm thẻ ID3 | 📋 Kế hoạch |
-| Thư mục theo dõi | 📋 Kế hoạch |
 | Ngôn ngữ ngoài tiếng Việt | 📋 Kế hoạch |
 
 ### Hạn chế đã biết (đang xử lý)
 
-- **Từ ngoài từ điển bị bỏ qua im lặng** — âm tiết không tách được sẽ biến mất khỏi audio mà
-  không báo. Cần cơ chế đánh vần dự phòng và cảnh báo rõ cho người dùng.
+- ~~Từ ngoài từ điển bị bỏ qua im lặng~~ — **đã sửa 08/08/2026**. Âm tiết không tách được
+  nay được đánh vần thay, và danh sách những từ đó hiện lên cho người dùng (trong app, và qua
+  header `X-TTS-Unknown-Words` của API). Trước đây chữ biến mất khỏi audio mà không ai biết —
+  với sách nói dài vài tiếng thì tai người không thể phát hiện.
+- ~~Nạp model mất ~4 giây mỗi lần~~ — **đã sửa**. Tiến trình nền giữ ấm 2 model: lần đọc đầu
+  ~4 giây, từ lần thứ hai còn 0,1–0,3 giây.
 - **Chưa có streaming** — phải render xong cả câu mới phát được, chưa hợp với hội thoại thời gian thực.
 - **Ngắt nghỉ mới ở mức câu** — dấu phẩy và dấu chấm phẩy chưa tạo quãng nghỉ riêng.
-- **Nạp model mất ~4 giây** — cần pool giữ sẵn model khi phục vụ nhiều yêu cầu.
 
 ---
 
