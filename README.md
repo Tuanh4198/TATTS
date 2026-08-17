@@ -1,7 +1,7 @@
 # TATTS — Bộ tổng hợp giọng nói Tiếng Việt chạy trên CPU
 
 Engine text-to-speech **tiếng Việt và tiếng Anh** hoạt động **hoàn toàn offline**, **không cần GPU**,
-đi kèm **68 giọng đọc sẵn sàng (50 Việt + 18 Anh)**. Biến file văn bản, phụ đề, hay bất kỳ đoạn text nào
+đi kèm **71 giọng đọc sẵn sàng (53 Việt + 18 Anh)**. Biến file văn bản, phụ đề, hay bất kỳ đoạn text nào
 thành audio chất lượng phát hành — trên chính máy của bạn, không giới hạn ký tự, không phí theo lượt.
 
 ### 🎧 Nghe thử toàn bộ kho giọng: **https://tuanh4198.github.io/TATTS/**
@@ -18,7 +18,7 @@ API để nối vào script hay công cụ khác.
 
 | | |
 |---|---|
-| 🎭 **50 giọng Việt sẵn dùng** | Nam, nữ, MC, bình luận viên, kể chuyện, nhân vật — không phải đi thu âm hay train |
+| 🎭 **53 giọng Việt sẵn dùng** | Nam, nữ, MC, bình luận viên, kể chuyện, nhân vật — không phải đi thu âm hay train |
 | ⚡ **Chạy trên CPU, nhanh gấp 16× thời gian thực** | Không CUDA, không card đồ hoạ, không driver |
 | 🔒 **100% offline** | Text không rời khỏi máy. Đọc hợp đồng, bệnh án, tài liệu nội bộ mà không lo rò rỉ |
 | 💸 **Chi phí biên bằng 0** | Đọc cuốn sách 500.000 ký tự cũng miễn phí. Dịch vụ cloud tính tiền từng ký tự |
@@ -186,7 +186,7 @@ module **Giọng Đọc AI** trong app **NTA Tool**.
 |---|---|
 | Engine tổng hợp tiếng Việt (ONNX, CPU) | ✅ Đang chạy |
 | Engine tiếng Anh (Piper + espeak-ng, CPU) | ✅ Đang chạy |
-| 50 giọng Việt + 18 giọng Anh | ✅ Đang chạy |
+| 53 giọng Việt + 18 giọng Anh | ✅ Đang chạy |
 | Web nghe thử + lọc theo ngôn ngữ | ✅ Đang chạy |
 | **App desktop — module trong NTA Tool** | ✅ Đang chạy |
 | **Tải giọng theo nhu cầu** (~64 MB/giọng) | ✅ Đang chạy |
@@ -212,11 +212,11 @@ module **Giọng Đọc AI** trong app **NTA Tool**.
 
 ## Kho giọng
 
-**68 giọng — 50 tiếng Việt + 18 tiếng Anh.**
+**71 giọng — 53 tiếng Việt + 18 tiếng Anh.**
 
-**Tiếng Việt (50):** giọng đọc phổ thông, MC dẫn chương trình, bình luận viên bóng đá và
-quân sự, giọng kể truyện, giọng nhân vật (Tào Tháo, Gia Cát Lượng, Hàn Tín, Châu Tinh Trì…),
-giọng triết lý, giọng trung niên.
+**Tiếng Việt (53):** giọng đọc phổ thông, MC dẫn chương trình, bình luận viên bóng đá và
+quân sự, giọng kể truyện, giọng nhân vật (Tào Tháo, Gia Cát Lượng, Hàn Tín, Châu Tinh Trì,
+Thái giám Công Công…), giọng triết lý, giọng trung niên, giọng trending (THEANH28).
 
 **Tiếng Anh (18):** Arctic, Brian, Brian wife, Bryce, Cori, Daden1, Ibrahim, Jessica,
 Joe, John, Kristin, Kusal, Lessac, Libritts, Linda Johnson, Norman, Ryan, Sam.
