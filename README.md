@@ -1,7 +1,7 @@
 # TATTS — Bộ tổng hợp giọng nói Tiếng Việt chạy trên CPU
 
-Engine text-to-speech tiếng Việt hoạt động **hoàn toàn offline**, **không cần GPU**, đi kèm
-**50 giọng đọc đã huấn luyện sẵn**. Biến file văn bản, phụ đề, hay bất kỳ đoạn text nào
+Engine text-to-speech **tiếng Việt và tiếng Anh** hoạt động **hoàn toàn offline**, **không cần GPU**,
+đi kèm **68 giọng đọc sẵn sàng (50 Việt + 18 Anh)**. Biến file văn bản, phụ đề, hay bất kỳ đoạn text nào
 thành audio chất lượng phát hành — trên chính máy của bạn, không giới hạn ký tự, không phí theo lượt.
 
 ### 🎧 Nghe thử toàn bộ kho giọng: **https://tuanh4198.github.io/TATTS/**
@@ -185,7 +185,8 @@ module **Giọng Đọc AI** trong app **NTA Tool**.
 | Hạng mục | Trạng thái |
 |---|---|
 | Engine tổng hợp tiếng Việt (ONNX, CPU) | ✅ Đang chạy |
-| 50 giọng đã huấn luyện | ✅ Đang chạy |
+| Engine tiếng Anh (Piper + espeak-ng, CPU) | ✅ Đang chạy |
+| 50 giọng Việt + 18 giọng Anh | ✅ Đang chạy |
 | Web nghe thử + lọc theo ngôn ngữ | ✅ Đang chạy |
 | **App desktop — module trong NTA Tool** | ✅ Đang chạy |
 | **Tải giọng theo nhu cầu** (~64 MB/giọng) | ✅ Đang chạy |
@@ -194,7 +195,7 @@ module **Giọng Đọc AI** trong app **NTA Tool**.
 | Lồng tiếng `.srt` khớp timeline | 🔨 Đang làm |
 | Kịch bản nhiều nhân vật | 📋 Kế hoạch |
 | Xuất MP3 kèm thẻ ID3 | 📋 Kế hoạch |
-| Ngôn ngữ ngoài tiếng Việt | 📋 Kế hoạch |
+| Ngôn ngữ khác (Trung, Hàn, Nhật…) | 📋 Kế hoạch |
 
 ### Hạn chế đã biết (đang xử lý)
 
@@ -211,14 +212,19 @@ module **Giọng Đọc AI** trong app **NTA Tool**.
 
 ## Kho giọng
 
-**50 giọng tiếng Việt** đã huấn luyện sẵn, đủ kiểu để chọn: giọng đọc phổ thông, MC dẫn
-chương trình, bình luận viên bóng đá và quân sự, giọng kể truyện, giọng nhân vật
-(Tào Tháo, Gia Cát Lượng, Hàn Tín, Châu Tinh Trì…), giọng triết lý, giọng trung niên.
+**68 giọng — 50 tiếng Việt + 18 tiếng Anh.**
 
-Mỗi giọng có sẵn một đoạn demo kèm kịch bản. Nghe thử tất cả tại
+**Tiếng Việt (50):** giọng đọc phổ thông, MC dẫn chương trình, bình luận viên bóng đá và
+quân sự, giọng kể truyện, giọng nhân vật (Tào Tháo, Gia Cát Lượng, Hàn Tín, Châu Tinh Trì…),
+giọng triết lý, giọng trung niên.
+
+**Tiếng Anh (18):** Arctic, Brian, Brian wife, Bryce, Cori, Daden1, Ibrahim, Jessica,
+Joe, John, Kristin, Kusal, Lessac, Libritts, Linda Johnson, Norman, Ryan, Sam.
+
+Mỗi giọng có sẵn một đoạn demo kèm kịch bản. Nghe thử tất cả — có bộ lọc theo ngôn ngữ — tại
 **[tuanh4198.github.io/TATTS](https://tuanh4198.github.io/TATTS/)**.
 
-Các ngôn ngữ khác (Anh, Trung, Hàn, Nhật, Pháp, Tây Ban Nha, Bồ Đào Nha, Ý, Ấn Độ) đã
+Các ngôn ngữ khác (Trung, Hàn, Nhật, Pháp, Tây Ban Nha, Bồ Đào Nha, Ý, Ấn Độ) đã
 dựng sẵn khung thư mục, chờ bổ sung giọng.
 
 ---

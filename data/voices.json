@@ -1,6 +1,168 @@
 {
   "voices": [
     {
+      "id": "tieng-anh--arctic",
+      "name": "Arctic",
+      "language": "Tiếng Anh",
+      "audio": "audio/tieng-anh--arctic.mp3",
+      "duration": 53.6,
+      "sizeKb": 419,
+      "script": "﻿Every morning, the small town woke up slowly. The streets were quiet, and the air was cool and fresh. People opened their windows and listened to the sounds of birds singing in the trees. Some residents enjoyed a short walk before breakfast, while others sat on their porches with a cup of coffee. The town was not famous, and it was not large, but the people who lived there appreciated its…"
+    },
+    {
+      "id": "tieng-anh--brian",
+      "name": "Brian",
+      "language": "Tiếng Anh",
+      "audio": "audio/tieng-anh--brian.mp3",
+      "duration": 45.1,
+      "sizeKb": 353,
+      "script": "﻿Every morning, the small town woke up slowly. The streets were quiet, and the air was cool and fresh. People opened their windows and listened to the sounds of birds singing in the trees. Some residents enjoyed a short walk before breakfast, while others sat on their porches with a cup of coffee. The town was not famous, and it was not large, but the people who lived there appreciated its…"
+    },
+    {
+      "id": "tieng-anh--brian-wife",
+      "name": "Brian wife",
+      "language": "Tiếng Anh",
+      "audio": "audio/tieng-anh--brian-wife.mp3",
+      "duration": 45.5,
+      "sizeKb": 356,
+      "script": "﻿Every morning, the small town woke up slowly. The streets were quiet, and the air was cool and fresh. People opened their windows and listened to the sounds of birds singing in the trees. Some residents enjoyed a short walk before breakfast, while others sat on their porches with a cup of coffee. The town was not famous, and it was not large, but the people who lived there appreciated its…"
+    },
+    {
+      "id": "tieng-anh--bryce",
+      "name": "Bryce",
+      "language": "Tiếng Anh",
+      "audio": "audio/tieng-anh--bryce.mp3",
+      "duration": 61.2,
+      "sizeKb": 479,
+      "script": "﻿Every morning, the small town woke up slowly. The streets were quiet, and the air was cool and fresh. People opened their windows and listened to the sounds of birds singing in the trees. Some residents enjoyed a short walk before breakfast, while others sat on their porches with a cup of coffee. The town was not famous, and it was not large, but the people who lived there appreciated its…"
+    },
+    {
+      "id": "tieng-anh--cori",
+      "name": "Cori",
+      "language": "Tiếng Anh",
+      "audio": "audio/tieng-anh--cori.mp3",
+      "duration": 46.7,
+      "sizeKb": 366,
+      "script": "﻿Every morning, the small town woke up slowly. The streets were quiet, and the air was cool and fresh. People opened their windows and listened to the sounds of birds singing in the trees. Some residents enjoyed a short walk before breakfast, while others sat on their porches with a cup of coffee. The town was not famous, and it was not large, but the people who lived there appreciated its…"
+    },
+    {
+      "id": "tieng-anh--daden1",
+      "name": "Daden1",
+      "language": "Tiếng Anh",
+      "audio": "audio/tieng-anh--daden1.mp3",
+      "duration": 41.4,
+      "sizeKb": 324,
+      "script": "The sun was beginning to set behind the mountains as Emma walked along the quiet road. The air was cool and fresh, carrying the scent of pine trees from the nearby forest. She had spent the entire day exploring small villages and hidden trails, and although she was tired, she felt peaceful and content. In the distance, a few lights started to appear in the windows of scattered houses. Emma…"
+    },
+    {
+      "id": "tieng-anh--ibrahim",
+      "name": "Ibrahim",
+      "language": "Tiếng Anh",
+      "audio": "audio/tieng-anh--ibrahim.mp3",
+      "duration": 57.6,
+      "sizeKb": 451,
+      "script": "﻿Every morning, the small town woke up slowly. The streets were quiet, and the air was cool and fresh. People opened their windows and listened to the sounds of birds singing in the trees. Some residents enjoyed a short walk before breakfast, while others sat on their porches with a cup of coffee. The town was not famous, and it was not large, but the people who lived there appreciated its…"
+    },
+    {
+      "id": "tieng-anh--jessica-me",
+      "name": "Jessica (Me)",
+      "language": "Tiếng Anh",
+      "audio": "audio/tieng-anh--jessica-me.mp3",
+      "duration": 53.4,
+      "sizeKb": 418,
+      "script": "﻿Every morning, the small town woke up slowly. The streets were quiet, and the air was cool and fresh. People opened their windows and listened to the sounds of birds singing in the trees. Some residents enjoyed a short walk before breakfast, while others sat on their porches with a cup of coffee. The town was not famous, and it was not large, but the people who lived there appreciated its…"
+    },
+    {
+      "id": "tieng-anh--joe",
+      "name": "Joe",
+      "language": "Tiếng Anh",
+      "audio": "audio/tieng-anh--joe.mp3",
+      "duration": 45.5,
+      "sizeKb": 356,
+      "script": "﻿Every morning, the small town woke up slowly. The streets were quiet, and the air was cool and fresh. People opened their windows and listened to the sounds of birds singing in the trees. Some residents enjoyed a short walk before breakfast, while others sat on their porches with a cup of coffee. The town was not famous, and it was not large, but the people who lived there appreciated its…"
+    },
+    {
+      "id": "tieng-anh--john",
+      "name": "John",
+      "language": "Tiếng Anh",
+      "audio": "audio/tieng-anh--john.mp3",
+      "duration": 52.4,
+      "sizeKb": 410,
+      "script": "﻿Every morning, the small town woke up slowly. The streets were quiet, and the air was cool and fresh. People opened their windows and listened to the sounds of birds singing in the trees. Some residents enjoyed a short walk before breakfast, while others sat on their porches with a cup of coffee. The town was not famous, and it was not large, but the people who lived there appreciated its…"
+    },
+    {
+      "id": "tieng-anh--kristin",
+      "name": "Kristin",
+      "language": "Tiếng Anh",
+      "audio": "audio/tieng-anh--kristin.mp3",
+      "duration": 50.5,
+      "sizeKb": 395,
+      "script": "﻿Every morning, the small town woke up slowly. The streets were quiet, and the air was cool and fresh. People opened their windows and listened to the sounds of birds singing in the trees. Some residents enjoyed a short walk before breakfast, while others sat on their porches with a cup of coffee. The town was not famous, and it was not large, but the people who lived there appreciated its…"
+    },
+    {
+      "id": "tieng-anh--kusal",
+      "name": "Kusal",
+      "language": "Tiếng Anh",
+      "audio": "audio/tieng-anh--kusal.mp3",
+      "duration": 41.5,
+      "sizeKb": 325,
+      "script": "﻿Every morning, the small town woke up slowly. The streets were quiet, and the air was cool and fresh. People opened their windows and listened to the sounds of birds singing in the trees. Some residents enjoyed a short walk before breakfast, while others sat on their porches with a cup of coffee. The town was not famous, and it was not large, but the people who lived there appreciated its…"
+    },
+    {
+      "id": "tieng-anh--lessac",
+      "name": "Lessac",
+      "language": "Tiếng Anh",
+      "audio": "audio/tieng-anh--lessac.mp3",
+      "duration": 44.9,
+      "sizeKb": 351,
+      "script": "﻿Every morning, the small town woke up slowly. The streets were quiet, and the air was cool and fresh. People opened their windows and listened to the sounds of birds singing in the trees. Some residents enjoyed a short walk before breakfast, while others sat on their porches with a cup of coffee. The town was not famous, and it was not large, but the people who lived there appreciated its…"
+    },
+    {
+      "id": "tieng-anh--libritts",
+      "name": "Libritts",
+      "language": "Tiếng Anh",
+      "audio": "audio/tieng-anh--libritts.mp3",
+      "duration": 45.3,
+      "sizeKb": 355,
+      "script": "﻿Every morning, the small town woke up slowly. The streets were quiet, and the air was cool and fresh. People opened their windows and listened to the sounds of birds singing in the trees. Some residents enjoyed a short walk before breakfast, while others sat on their porches with a cup of coffee. The town was not famous, and it was not large, but the people who lived there appreciated its…"
+    },
+    {
+      "id": "tieng-anh--linda-johnson",
+      "name": "Linda Johnson",
+      "language": "Tiếng Anh",
+      "audio": "audio/tieng-anh--linda-johnson.mp3",
+      "duration": 52.7,
+      "sizeKb": 412,
+      "script": "﻿Every morning, the small town woke up slowly. The streets were quiet, and the air was cool and fresh. People opened their windows and listened to the sounds of birds singing in the trees. Some residents enjoyed a short walk before breakfast, while others sat on their porches with a cup of coffee. The town was not famous, and it was not large, but the people who lived there appreciated its…"
+    },
+    {
+      "id": "tieng-anh--norman",
+      "name": "Norman",
+      "language": "Tiếng Anh",
+      "audio": "audio/tieng-anh--norman.mp3",
+      "duration": 48.6,
+      "sizeKb": 380,
+      "script": "﻿Every morning, the small town woke up slowly. The streets were quiet, and the air was cool and fresh. People opened their windows and listened to the sounds of birds singing in the trees. Some residents enjoyed a short walk before breakfast, while others sat on their porches with a cup of coffee. The town was not famous, and it was not large, but the people who lived there appreciated its…"
+    },
+    {
+      "id": "tieng-anh--ryan",
+      "name": "Ryan",
+      "language": "Tiếng Anh",
+      "audio": "audio/tieng-anh--ryan.mp3",
+      "duration": 44.9,
+      "sizeKb": 351,
+      "script": "﻿Every morning, the small town woke up slowly. The streets were quiet, and the air was cool and fresh. People opened their windows and listened to the sounds of birds singing in the trees. Some residents enjoyed a short walk before breakfast, while others sat on their porches with a cup of coffee. The town was not famous, and it was not large, but the people who lived there appreciated its…"
+    },
+    {
+      "id": "tieng-anh--sam",
+      "name": "Sam",
+      "language": "Tiếng Anh",
+      "audio": "audio/tieng-anh--sam.mp3",
+      "duration": 51.9,
+      "sizeKb": 406,
+      "script": "﻿Every morning, the small town woke up slowly. The streets were quiet, and the air was cool and fresh. People opened their windows and listened to the sounds of birds singing in the trees. Some residents enjoyed a short walk before breakfast, while others sat on their porches with a cup of coffee. The town was not famous, and it was not large, but the people who lived there appreciated its…"
+    },
+    {
       "id": "tieng-viet--adam",
       "name": "Adam",
       "language": "Tiếng Việt",
