@@ -163,6 +163,1086 @@
       "script": "﻿Every morning, the small town woke up slowly. The streets were quiet, and the air was cool and fresh. People opened their windows and listened to the sounds of birds singing in the trees. Some residents enjoyed a short walk before breakfast, while others sat on their porches with a cup of coffee. The town was not famous, and it was not large, but the people who lived there appreciated its…"
     },
     {
+      "id": "tieng-bo-dao-nha--pf-dora",
+      "name": "pf_dora",
+      "language": "Tiếng Bồ Đào Nha",
+      "audio": "audio/tieng-bo-dao-nha--pf-dora.mp3",
+      "duration": 5.1,
+      "sizeKb": 41,
+      "script": "Olá e bem-vindo. Conheça a nossa voz sintética com um som natural e agradável de ouvir."
+    },
+    {
+      "id": "tieng-bo-dao-nha--pm-alex",
+      "name": "pm_alex",
+      "language": "Tiếng Bồ Đào Nha",
+      "audio": "audio/tieng-bo-dao-nha--pm-alex.mp3",
+      "duration": 5.1,
+      "sizeKb": 41,
+      "script": "Olá e bem-vindo. Conheça a nossa voz sintética com um som natural e agradável de ouvir."
+    },
+    {
+      "id": "tieng-bo-dao-nha--pm-santa",
+      "name": "pm_santa",
+      "language": "Tiếng Bồ Đào Nha",
+      "audio": "audio/tieng-bo-dao-nha--pm-santa.mp3",
+      "duration": 5.3,
+      "sizeKb": 42,
+      "script": "Olá e bem-vindo. Conheça a nossa voz sintética com um som natural e agradável de ouvir."
+    },
+    {
+      "id": "tieng-nhat--jf-alpha",
+      "name": "jf_alpha",
+      "language": "Tiếng Nhật",
+      "audio": "audio/tieng-nhat--jf-alpha.mp3",
+      "duration": 8.4,
+      "sizeKb": 66,
+      "script": "こんにちは。私たちの音声合成をお試しください。自然で聞き取りやすい声をお届けします。"
+    },
+    {
+      "id": "tieng-nhat--jf-gongitsune",
+      "name": "jf_gongitsune",
+      "language": "Tiếng Nhật",
+      "audio": "audio/tieng-nhat--jf-gongitsune.mp3",
+      "duration": 10.0,
+      "sizeKb": 79,
+      "script": "こんにちは。私たちの音声合成をお試しください。自然で聞き取りやすい声をお届けします。"
+    },
+    {
+      "id": "tieng-nhat--jf-nezumi",
+      "name": "jf_nezumi",
+      "language": "Tiếng Nhật",
+      "audio": "audio/tieng-nhat--jf-nezumi.mp3",
+      "duration": 10.0,
+      "sizeKb": 79,
+      "script": "こんにちは。私たちの音声合成をお試しください。自然で聞き取りやすい声をお届けします。"
+    },
+    {
+      "id": "tieng-nhat--jf-tebukuro",
+      "name": "jf_tebukuro",
+      "language": "Tiếng Nhật",
+      "audio": "audio/tieng-nhat--jf-tebukuro.mp3",
+      "duration": 9.6,
+      "sizeKb": 76,
+      "script": "こんにちは。私たちの音声合成をお試しください。自然で聞き取りやすい声をお届けします。"
+    },
+    {
+      "id": "tieng-nhat--jm-kumo",
+      "name": "jm_kumo",
+      "language": "Tiếng Nhật",
+      "audio": "audio/tieng-nhat--jm-kumo.mp3",
+      "duration": 8.8,
+      "sizeKb": 69,
+      "script": "こんにちは。私たちの音声合成をお試しください。自然で聞き取りやすい声をお届けします。"
+    },
+    {
+      "id": "tieng-phap--ff-siwis",
+      "name": "ff_siwis",
+      "language": "Tiếng Pháp",
+      "audio": "audio/tieng-phap--ff-siwis.mp3",
+      "duration": 5.3,
+      "sizeKb": 42,
+      "script": "Bonjour et bienvenue. Découvrez notre voix de synthèse au son naturel et agréable à écouter."
+    },
+    {
+      "id": "tieng-trung--zf-001",
+      "name": "zf_001",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zf-001.mp3",
+      "duration": 7.2,
+      "sizeKb": 57,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zf-002",
+      "name": "zf_002",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zf-002.mp3",
+      "duration": 7.7,
+      "sizeKb": 60,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zf-003",
+      "name": "zf_003",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zf-003.mp3",
+      "duration": 8.1,
+      "sizeKb": 64,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zf-004",
+      "name": "zf_004",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zf-004.mp3",
+      "duration": 8.2,
+      "sizeKb": 65,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zf-005",
+      "name": "zf_005",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zf-005.mp3",
+      "duration": 7.7,
+      "sizeKb": 61,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zf-006",
+      "name": "zf_006",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zf-006.mp3",
+      "duration": 7.8,
+      "sizeKb": 62,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zf-007",
+      "name": "zf_007",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zf-007.mp3",
+      "duration": 7.4,
+      "sizeKb": 58,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zf-008",
+      "name": "zf_008",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zf-008.mp3",
+      "duration": 8.2,
+      "sizeKb": 65,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zf-017",
+      "name": "zf_017",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zf-017.mp3",
+      "duration": 7.9,
+      "sizeKb": 63,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zf-018",
+      "name": "zf_018",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zf-018.mp3",
+      "duration": 8.7,
+      "sizeKb": 68,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zf-019",
+      "name": "zf_019",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zf-019.mp3",
+      "duration": 8.7,
+      "sizeKb": 69,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zf-021",
+      "name": "zf_021",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zf-021.mp3",
+      "duration": 7.4,
+      "sizeKb": 59,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zf-022",
+      "name": "zf_022",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zf-022.mp3",
+      "duration": 9.2,
+      "sizeKb": 72,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zf-023",
+      "name": "zf_023",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zf-023.mp3",
+      "duration": 7.8,
+      "sizeKb": 62,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zf-024",
+      "name": "zf_024",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zf-024.mp3",
+      "duration": 8.5,
+      "sizeKb": 67,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zf-026",
+      "name": "zf_026",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zf-026.mp3",
+      "duration": 8.0,
+      "sizeKb": 63,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zf-027",
+      "name": "zf_027",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zf-027.mp3",
+      "duration": 7.8,
+      "sizeKb": 61,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zf-028",
+      "name": "zf_028",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zf-028.mp3",
+      "duration": 8.0,
+      "sizeKb": 63,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zf-032",
+      "name": "zf_032",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zf-032.mp3",
+      "duration": 8.2,
+      "sizeKb": 65,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zf-036",
+      "name": "zf_036",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zf-036.mp3",
+      "duration": 7.7,
+      "sizeKb": 61,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zf-038",
+      "name": "zf_038",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zf-038.mp3",
+      "duration": 8.9,
+      "sizeKb": 71,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zf-039",
+      "name": "zf_039",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zf-039.mp3",
+      "duration": 8.9,
+      "sizeKb": 70,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zf-040",
+      "name": "zf_040",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zf-040.mp3",
+      "duration": 8.7,
+      "sizeKb": 69,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zf-042",
+      "name": "zf_042",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zf-042.mp3",
+      "duration": 8.8,
+      "sizeKb": 69,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zf-043",
+      "name": "zf_043",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zf-043.mp3",
+      "duration": 8.6,
+      "sizeKb": 68,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zf-044",
+      "name": "zf_044",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zf-044.mp3",
+      "duration": 8.1,
+      "sizeKb": 64,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zf-046",
+      "name": "zf_046",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zf-046.mp3",
+      "duration": 8.9,
+      "sizeKb": 70,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zf-047",
+      "name": "zf_047",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zf-047.mp3",
+      "duration": 8.1,
+      "sizeKb": 64,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zf-048",
+      "name": "zf_048",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zf-048.mp3",
+      "duration": 10.2,
+      "sizeKb": 80,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zf-049",
+      "name": "zf_049",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zf-049.mp3",
+      "duration": 8.9,
+      "sizeKb": 70,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zf-051",
+      "name": "zf_051",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zf-051.mp3",
+      "duration": 9.3,
+      "sizeKb": 73,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zf-059",
+      "name": "zf_059",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zf-059.mp3",
+      "duration": 8.0,
+      "sizeKb": 63,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zf-060",
+      "name": "zf_060",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zf-060.mp3",
+      "duration": 8.8,
+      "sizeKb": 70,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zf-067",
+      "name": "zf_067",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zf-067.mp3",
+      "duration": 8.2,
+      "sizeKb": 65,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zf-070",
+      "name": "zf_070",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zf-070.mp3",
+      "duration": 8.8,
+      "sizeKb": 69,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zf-071",
+      "name": "zf_071",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zf-071.mp3",
+      "duration": 8.6,
+      "sizeKb": 68,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zf-072",
+      "name": "zf_072",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zf-072.mp3",
+      "duration": 8.2,
+      "sizeKb": 65,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zf-073",
+      "name": "zf_073",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zf-073.mp3",
+      "duration": 8.7,
+      "sizeKb": 69,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zf-074",
+      "name": "zf_074",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zf-074.mp3",
+      "duration": 8.5,
+      "sizeKb": 67,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zf-075",
+      "name": "zf_075",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zf-075.mp3",
+      "duration": 9.2,
+      "sizeKb": 73,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zf-076",
+      "name": "zf_076",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zf-076.mp3",
+      "duration": 8.4,
+      "sizeKb": 66,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zf-077",
+      "name": "zf_077",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zf-077.mp3",
+      "duration": 8.2,
+      "sizeKb": 65,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zf-078",
+      "name": "zf_078",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zf-078.mp3",
+      "duration": 8.9,
+      "sizeKb": 70,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zf-079",
+      "name": "zf_079",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zf-079.mp3",
+      "duration": 9.0,
+      "sizeKb": 71,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zf-083",
+      "name": "zf_083",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zf-083.mp3",
+      "duration": 8.5,
+      "sizeKb": 67,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zf-084",
+      "name": "zf_084",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zf-084.mp3",
+      "duration": 8.7,
+      "sizeKb": 69,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zf-085",
+      "name": "zf_085",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zf-085.mp3",
+      "duration": 9.4,
+      "sizeKb": 74,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zf-086",
+      "name": "zf_086",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zf-086.mp3",
+      "duration": 8.5,
+      "sizeKb": 67,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zf-087",
+      "name": "zf_087",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zf-087.mp3",
+      "duration": 9.0,
+      "sizeKb": 71,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zf-088",
+      "name": "zf_088",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zf-088.mp3",
+      "duration": 7.2,
+      "sizeKb": 57,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zf-090",
+      "name": "zf_090",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zf-090.mp3",
+      "duration": 9.3,
+      "sizeKb": 73,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zf-092",
+      "name": "zf_092",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zf-092.mp3",
+      "duration": 7.9,
+      "sizeKb": 62,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zf-093",
+      "name": "zf_093",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zf-093.mp3",
+      "duration": 8.4,
+      "sizeKb": 67,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zf-094",
+      "name": "zf_094",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zf-094.mp3",
+      "duration": 8.4,
+      "sizeKb": 67,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zf-099",
+      "name": "zf_099",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zf-099.mp3",
+      "duration": 8.3,
+      "sizeKb": 66,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zf-xiaobei",
+      "name": "zf_xiaobei",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zf-xiaobei.mp3",
+      "duration": 8.6,
+      "sizeKb": 68,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zf-xiaoni",
+      "name": "zf_xiaoni",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zf-xiaoni.mp3",
+      "duration": 7.5,
+      "sizeKb": 59,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zf-xiaoxiao",
+      "name": "zf_xiaoxiao",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zf-xiaoxiao.mp3",
+      "duration": 7.2,
+      "sizeKb": 57,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zf-xiaoyi",
+      "name": "zf_xiaoyi",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zf-xiaoyi.mp3",
+      "duration": 7.2,
+      "sizeKb": 57,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zm-009",
+      "name": "zm_009",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zm-009.mp3",
+      "duration": 7.2,
+      "sizeKb": 57,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zm-010",
+      "name": "zm_010",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zm-010.mp3",
+      "duration": 7.1,
+      "sizeKb": 56,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zm-011",
+      "name": "zm_011",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zm-011.mp3",
+      "duration": 7.2,
+      "sizeKb": 57,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zm-012",
+      "name": "zm_012",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zm-012.mp3",
+      "duration": 7.3,
+      "sizeKb": 58,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zm-013",
+      "name": "zm_013",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zm-013.mp3",
+      "duration": 6.8,
+      "sizeKb": 54,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zm-014",
+      "name": "zm_014",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zm-014.mp3",
+      "duration": 8.0,
+      "sizeKb": 63,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zm-015",
+      "name": "zm_015",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zm-015.mp3",
+      "duration": 7.5,
+      "sizeKb": 59,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zm-016",
+      "name": "zm_016",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zm-016.mp3",
+      "duration": 7.8,
+      "sizeKb": 61,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zm-020",
+      "name": "zm_020",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zm-020.mp3",
+      "duration": 10.2,
+      "sizeKb": 80,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zm-025",
+      "name": "zm_025",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zm-025.mp3",
+      "duration": 8.2,
+      "sizeKb": 65,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zm-029",
+      "name": "zm_029",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zm-029.mp3",
+      "duration": 7.9,
+      "sizeKb": 63,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zm-030",
+      "name": "zm_030",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zm-030.mp3",
+      "duration": 9.1,
+      "sizeKb": 71,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zm-031",
+      "name": "zm_031",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zm-031.mp3",
+      "duration": 8.9,
+      "sizeKb": 70,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zm-033",
+      "name": "zm_033",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zm-033.mp3",
+      "duration": 8.3,
+      "sizeKb": 66,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zm-034",
+      "name": "zm_034",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zm-034.mp3",
+      "duration": 8.5,
+      "sizeKb": 67,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zm-035",
+      "name": "zm_035",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zm-035.mp3",
+      "duration": 9.2,
+      "sizeKb": 72,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zm-037",
+      "name": "zm_037",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zm-037.mp3",
+      "duration": 9.2,
+      "sizeKb": 72,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zm-041",
+      "name": "zm_041",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zm-041.mp3",
+      "duration": 7.8,
+      "sizeKb": 62,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zm-045",
+      "name": "zm_045",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zm-045.mp3",
+      "duration": 8.0,
+      "sizeKb": 63,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zm-050",
+      "name": "zm_050",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zm-050.mp3",
+      "duration": 8.1,
+      "sizeKb": 64,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zm-052",
+      "name": "zm_052",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zm-052.mp3",
+      "duration": 8.4,
+      "sizeKb": 67,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zm-053",
+      "name": "zm_053",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zm-053.mp3",
+      "duration": 9.8,
+      "sizeKb": 77,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zm-054",
+      "name": "zm_054",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zm-054.mp3",
+      "duration": 8.9,
+      "sizeKb": 71,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zm-055",
+      "name": "zm_055",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zm-055.mp3",
+      "duration": 8.7,
+      "sizeKb": 68,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zm-056",
+      "name": "zm_056",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zm-056.mp3",
+      "duration": 9.0,
+      "sizeKb": 71,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zm-057",
+      "name": "zm_057",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zm-057.mp3",
+      "duration": 9.0,
+      "sizeKb": 71,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zm-058",
+      "name": "zm_058",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zm-058.mp3",
+      "duration": 7.9,
+      "sizeKb": 62,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zm-061",
+      "name": "zm_061",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zm-061.mp3",
+      "duration": 9.1,
+      "sizeKb": 72,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zm-062",
+      "name": "zm_062",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zm-062.mp3",
+      "duration": 8.7,
+      "sizeKb": 69,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zm-063",
+      "name": "zm_063",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zm-063.mp3",
+      "duration": 8.4,
+      "sizeKb": 67,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zm-064",
+      "name": "zm_064",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zm-064.mp3",
+      "duration": 8.5,
+      "sizeKb": 67,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zm-065",
+      "name": "zm_065",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zm-065.mp3",
+      "duration": 8.9,
+      "sizeKb": 70,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zm-066",
+      "name": "zm_066",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zm-066.mp3",
+      "duration": 8.3,
+      "sizeKb": 66,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zm-068",
+      "name": "zm_068",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zm-068.mp3",
+      "duration": 8.3,
+      "sizeKb": 66,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zm-069",
+      "name": "zm_069",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zm-069.mp3",
+      "duration": 8.9,
+      "sizeKb": 71,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zm-080",
+      "name": "zm_080",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zm-080.mp3",
+      "duration": 9.2,
+      "sizeKb": 72,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zm-081",
+      "name": "zm_081",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zm-081.mp3",
+      "duration": 10.1,
+      "sizeKb": 80,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zm-082",
+      "name": "zm_082",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zm-082.mp3",
+      "duration": 8.4,
+      "sizeKb": 67,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zm-089",
+      "name": "zm_089",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zm-089.mp3",
+      "duration": 8.4,
+      "sizeKb": 67,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zm-091",
+      "name": "zm_091",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zm-091.mp3",
+      "duration": 8.5,
+      "sizeKb": 67,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zm-095",
+      "name": "zm_095",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zm-095.mp3",
+      "duration": 8.3,
+      "sizeKb": 65,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zm-096",
+      "name": "zm_096",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zm-096.mp3",
+      "duration": 8.0,
+      "sizeKb": 63,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zm-097",
+      "name": "zm_097",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zm-097.mp3",
+      "duration": 7.5,
+      "sizeKb": 59,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zm-098",
+      "name": "zm_098",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zm-098.mp3",
+      "duration": 9.3,
+      "sizeKb": 74,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zm-100",
+      "name": "zm_100",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zm-100.mp3",
+      "duration": 9.2,
+      "sizeKb": 72,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zm-yunjian",
+      "name": "zm_yunjian",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zm-yunjian.mp3",
+      "duration": 7.2,
+      "sizeKb": 57,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zm-yunxi",
+      "name": "zm_yunxi",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zm-yunxi.mp3",
+      "duration": 7.0,
+      "sizeKb": 56,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zm-yunxia",
+      "name": "zm_yunxia",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zm-yunxia.mp3",
+      "duration": 7.7,
+      "sizeKb": 61,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-trung--zm-yunyang",
+      "name": "zm_yunyang",
+      "language": "Tiếng Trung",
+      "audio": "audio/tieng-trung--zm-yunyang.mp3",
+      "duration": 6.6,
+      "sizeKb": 53,
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+    },
+    {
+      "id": "tieng-tay-ban-nha--ef-dora",
+      "name": "ef_dora",
+      "language": "Tiếng Tây Ban Nha",
+      "audio": "audio/tieng-tay-ban-nha--ef-dora.mp3",
+      "duration": 5.0,
+      "sizeKb": 40,
+      "script": "Hola y bienvenido. Descubre nuestra voz sintética con un sonido natural y agradable."
+    },
+    {
+      "id": "tieng-tay-ban-nha--em-alex",
+      "name": "em_alex",
+      "language": "Tiếng Tây Ban Nha",
+      "audio": "audio/tieng-tay-ban-nha--em-alex.mp3",
+      "duration": 5.1,
+      "sizeKb": 41,
+      "script": "Hola y bienvenido. Descubre nuestra voz sintética con un sonido natural y agradable."
+    },
+    {
+      "id": "tieng-tay-ban-nha--em-santa",
+      "name": "em_santa",
+      "language": "Tiếng Tây Ban Nha",
+      "audio": "audio/tieng-tay-ban-nha--em-santa.mp3",
+      "duration": 5.2,
+      "sizeKb": 41,
+      "script": "Hola y bienvenido. Descubre nuestra voz sintética con un sonido natural y agradable."
+    },
+    {
       "id": "tieng-viet--adam",
       "name": "Adam",
       "language": "Tiếng Việt",
@@ -638,6 +1718,60 @@
       "duration": 27.6,
       "sizeKb": 216,
       "script": "Xã hội hiện đại đang chịu ảnh hưởng mạnh mẽ từ sự phát triển của công nghệ và truyền thông số. Những tiến bộ này giúp con người tiếp cận thông tin, giáo dục và cơ hội kinh tế dễ dàng hơn, nhưng đồng thời cũng đặt ra các thách thức như tin giả, vấn đề quyền riêng tư và sự suy giảm tương tác trực tiếp giữa con người. Để tận dụng lợi ích của công nghệ một cách hiệu quả, cần nâng cao nhận thức số,…"
+    },
+    {
+      "id": "tieng-y--if-sara",
+      "name": "if_sara",
+      "language": "Tiếng Ý",
+      "audio": "audio/tieng-y--if-sara.mp3",
+      "duration": 5.1,
+      "sizeKb": 41,
+      "script": "Ciao e benvenuto. Ascolta la nostra voce sintetica dal suono naturale e piacevole."
+    },
+    {
+      "id": "tieng-y--im-nicola",
+      "name": "im_nicola",
+      "language": "Tiếng Ý",
+      "audio": "audio/tieng-y--im-nicola.mp3",
+      "duration": 5.8,
+      "sizeKb": 46,
+      "script": "Ciao e benvenuto. Ascolta la nostra voce sintetica dal suono naturale e piacevole."
+    },
+    {
+      "id": "tieng-an-do--hf-alpha",
+      "name": "hf_alpha",
+      "language": "Tiếng Ấn Độ",
+      "audio": "audio/tieng-an-do--hf-alpha.mp3",
+      "duration": 5.6,
+      "sizeKb": 44,
+      "script": "नमस्ते और स्वागत है। हमारी स्वाभाविक और स्पष्ट आवाज़ का अनुभव करें।"
+    },
+    {
+      "id": "tieng-an-do--hf-beta",
+      "name": "hf_beta",
+      "language": "Tiếng Ấn Độ",
+      "audio": "audio/tieng-an-do--hf-beta.mp3",
+      "duration": 4.7,
+      "sizeKb": 38,
+      "script": "नमस्ते और स्वागत है। हमारी स्वाभाविक और स्पष्ट आवाज़ का अनुभव करें।"
+    },
+    {
+      "id": "tieng-an-do--hm-omega",
+      "name": "hm_omega",
+      "language": "Tiếng Ấn Độ",
+      "audio": "audio/tieng-an-do--hm-omega.mp3",
+      "duration": 5.6,
+      "sizeKb": 45,
+      "script": "नमस्ते और स्वागत है। हमारी स्वाभाविक और स्पष्ट आवाज़ का अनुभव करें।"
+    },
+    {
+      "id": "tieng-an-do--hm-psi",
+      "name": "hm_psi",
+      "language": "Tiếng Ấn Độ",
+      "audio": "audio/tieng-an-do--hm-psi.mp3",
+      "duration": 5.5,
+      "sizeKb": 44,
+      "script": "नमस्ते और स्वागत है। हमारी स्वाभाविक और स्पष्ट आवाज़ का अनुभव करें।"
     }
   ]
 }
