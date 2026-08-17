@@ -1,6 +1,186 @@
 {
   "voices": [
     {
+      "id": "tieng-anh--af-alloy",
+      "name": "af_alloy",
+      "language": "Tiếng Anh",
+      "audio": "audio/tieng-anh--af-alloy.mp3",
+      "duration": 7.1,
+      "sizeKb": 56,
+      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience."
+    },
+    {
+      "id": "tieng-anh--af-aoede",
+      "name": "af_aoede",
+      "language": "Tiếng Anh",
+      "audio": "audio/tieng-anh--af-aoede.mp3",
+      "duration": 6.9,
+      "sizeKb": 55,
+      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience."
+    },
+    {
+      "id": "tieng-anh--af-bella",
+      "name": "af_bella",
+      "language": "Tiếng Anh",
+      "audio": "audio/tieng-anh--af-bella.mp3",
+      "duration": 7.5,
+      "sizeKb": 59,
+      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience."
+    },
+    {
+      "id": "tieng-anh--af-heart",
+      "name": "af_heart",
+      "language": "Tiếng Anh",
+      "audio": "audio/tieng-anh--af-heart.mp3",
+      "duration": 7.0,
+      "sizeKb": 55,
+      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience."
+    },
+    {
+      "id": "tieng-anh--af-jessica",
+      "name": "af_jessica",
+      "language": "Tiếng Anh",
+      "audio": "audio/tieng-anh--af-jessica.mp3",
+      "duration": 6.4,
+      "sizeKb": 51,
+      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience."
+    },
+    {
+      "id": "tieng-anh--af-kore",
+      "name": "af_kore",
+      "language": "Tiếng Anh",
+      "audio": "audio/tieng-anh--af-kore.mp3",
+      "duration": 7.6,
+      "sizeKb": 60,
+      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience."
+    },
+    {
+      "id": "tieng-anh--af-nicole",
+      "name": "af_nicole",
+      "language": "Tiếng Anh",
+      "audio": "audio/tieng-anh--af-nicole.mp3",
+      "duration": 10.9,
+      "sizeKb": 86,
+      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience."
+    },
+    {
+      "id": "tieng-anh--af-nova",
+      "name": "af_nova",
+      "language": "Tiếng Anh",
+      "audio": "audio/tieng-anh--af-nova.mp3",
+      "duration": 6.8,
+      "sizeKb": 54,
+      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience."
+    },
+    {
+      "id": "tieng-anh--af-river",
+      "name": "af_river",
+      "language": "Tiếng Anh",
+      "audio": "audio/tieng-anh--af-river.mp3",
+      "duration": 6.2,
+      "sizeKb": 49,
+      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience."
+    },
+    {
+      "id": "tieng-anh--af-sarah",
+      "name": "af_sarah",
+      "language": "Tiếng Anh",
+      "audio": "audio/tieng-anh--af-sarah.mp3",
+      "duration": 6.8,
+      "sizeKb": 54,
+      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience."
+    },
+    {
+      "id": "tieng-anh--af-sky",
+      "name": "af_sky",
+      "language": "Tiếng Anh",
+      "audio": "audio/tieng-anh--af-sky.mp3",
+      "duration": 6.9,
+      "sizeKb": 55,
+      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience."
+    },
+    {
+      "id": "tieng-anh--am-adam",
+      "name": "am_adam",
+      "language": "Tiếng Anh",
+      "audio": "audio/tieng-anh--am-adam.mp3",
+      "duration": 6.8,
+      "sizeKb": 54,
+      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience."
+    },
+    {
+      "id": "tieng-anh--am-echo",
+      "name": "am_echo",
+      "language": "Tiếng Anh",
+      "audio": "audio/tieng-anh--am-echo.mp3",
+      "duration": 6.7,
+      "sizeKb": 53,
+      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience."
+    },
+    {
+      "id": "tieng-anh--am-eric",
+      "name": "am_eric",
+      "language": "Tiếng Anh",
+      "audio": "audio/tieng-anh--am-eric.mp3",
+      "duration": 6.1,
+      "sizeKb": 49,
+      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience."
+    },
+    {
+      "id": "tieng-anh--am-fenrir",
+      "name": "am_fenrir",
+      "language": "Tiếng Anh",
+      "audio": "audio/tieng-anh--am-fenrir.mp3",
+      "duration": 7.1,
+      "sizeKb": 56,
+      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience."
+    },
+    {
+      "id": "tieng-anh--am-liam",
+      "name": "am_liam",
+      "language": "Tiếng Anh",
+      "audio": "audio/tieng-anh--am-liam.mp3",
+      "duration": 6.3,
+      "sizeKb": 50,
+      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience."
+    },
+    {
+      "id": "tieng-anh--am-michael",
+      "name": "am_michael",
+      "language": "Tiếng Anh",
+      "audio": "audio/tieng-anh--am-michael.mp3",
+      "duration": 7.8,
+      "sizeKb": 62,
+      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience."
+    },
+    {
+      "id": "tieng-anh--am-onyx",
+      "name": "am_onyx",
+      "language": "Tiếng Anh",
+      "audio": "audio/tieng-anh--am-onyx.mp3",
+      "duration": 6.9,
+      "sizeKb": 55,
+      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience."
+    },
+    {
+      "id": "tieng-anh--am-puck",
+      "name": "am_puck",
+      "language": "Tiếng Anh",
+      "audio": "audio/tieng-anh--am-puck.mp3",
+      "duration": 7.1,
+      "sizeKb": 56,
+      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience."
+    },
+    {
+      "id": "tieng-anh--am-santa",
+      "name": "am_santa",
+      "language": "Tiếng Anh",
+      "audio": "audio/tieng-anh--am-santa.mp3",
+      "duration": 7.8,
+      "sizeKb": 62,
+      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience."
+    },
+    {
       "id": "tieng-anh--arctic",
       "name": "Arctic",
       "language": "Tiếng Anh",
@@ -8,6 +188,78 @@
       "duration": 53.6,
       "sizeKb": 419,
       "script": "﻿Every morning, the small town woke up slowly. The streets were quiet, and the air was cool and fresh. People opened their windows and listened to the sounds of birds singing in the trees. Some residents enjoyed a short walk before breakfast, while others sat on their porches with a cup of coffee. The town was not famous, and it was not large, but the people who lived there appreciated its…"
+    },
+    {
+      "id": "tieng-anh--bf-alice",
+      "name": "bf_alice",
+      "language": "Tiếng Anh",
+      "audio": "audio/tieng-anh--bf-alice.mp3",
+      "duration": 7.1,
+      "sizeKb": 56,
+      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience."
+    },
+    {
+      "id": "tieng-anh--bf-emma",
+      "name": "bf_emma",
+      "language": "Tiếng Anh",
+      "audio": "audio/tieng-anh--bf-emma.mp3",
+      "duration": 6.6,
+      "sizeKb": 52,
+      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience."
+    },
+    {
+      "id": "tieng-anh--bf-isabella",
+      "name": "bf_isabella",
+      "language": "Tiếng Anh",
+      "audio": "audio/tieng-anh--bf-isabella.mp3",
+      "duration": 6.7,
+      "sizeKb": 53,
+      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience."
+    },
+    {
+      "id": "tieng-anh--bf-lily",
+      "name": "bf_lily",
+      "language": "Tiếng Anh",
+      "audio": "audio/tieng-anh--bf-lily.mp3",
+      "duration": 6.8,
+      "sizeKb": 54,
+      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience."
+    },
+    {
+      "id": "tieng-anh--bm-daniel",
+      "name": "bm_daniel",
+      "language": "Tiếng Anh",
+      "audio": "audio/tieng-anh--bm-daniel.mp3",
+      "duration": 6.6,
+      "sizeKb": 53,
+      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience."
+    },
+    {
+      "id": "tieng-anh--bm-fable",
+      "name": "bm_fable",
+      "language": "Tiếng Anh",
+      "audio": "audio/tieng-anh--bm-fable.mp3",
+      "duration": 7.1,
+      "sizeKb": 56,
+      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience."
+    },
+    {
+      "id": "tieng-anh--bm-george",
+      "name": "bm_george",
+      "language": "Tiếng Anh",
+      "audio": "audio/tieng-anh--bm-george.mp3",
+      "duration": 7.7,
+      "sizeKb": 61,
+      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience."
+    },
+    {
+      "id": "tieng-anh--bm-lewis",
+      "name": "bm_lewis",
+      "language": "Tiếng Anh",
+      "audio": "audio/tieng-anh--bm-lewis.mp3",
+      "duration": 7.5,
+      "sizeKb": 59,
+      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience."
     },
     {
       "id": "tieng-anh--brian",
