@@ -25,6 +25,82 @@ DATA_OUT = HERE / "data" / "voices.json"
 MP3_BITRATE = "64k"
 SCRIPT_PREVIEW_CHARS = 400
 
+# ── Nhận dạng giọng Kokoro ───────────────────────────────────────────────────
+# Tên giọng Kokoro luôn là <chữ ngôn ngữ><f|m>_<tên>: af_bella, zf_001, jm_kumo…
+# Giọng Piper (tự train tiếng Việt + 18 giọng Anh) không có dạng này, nên một biểu thức là đủ
+# để tách hai họ mà không phải liệt kê tay — liệt kê tay là mỗi lần thêm giọng lại quên một cái.
+RE_KOKORO = re.compile(r"^[abefhijpz][fm]_[a-z0-9]+$")
+
+# 100 giọng Trung của bản v1.1-zh đặt tên bằng SỐ (zf_001…zm_100); 8 giọng Trung của bản v1.0
+# đặt tên bằng chữ (zf_xiaobei…). Đây là cách duy nhất phân biệt chúng từ tên, và phân biệt sai
+# thì app nạp giọng bằng model không khớp -> mất thanh điệu mà audio vẫn ra.
+RE_ZH_V11 = re.compile(r"^z[fm]_\d{3}$")
+
+# chữ đầu tên giọng -> (mã ngôn ngữ cho bộ phiên âm, đường phiên âm)
+KOKORO_LANG = {
+    "a": ("en-us", "espeak"),
+    "b": ("en-gb", "espeak"),
+    "e": ("es", "espeak"),
+    "f": ("fr-fr", "espeak"),
+    "h": ("hi", "espeak"),
+    "i": ("it", "espeak"),
+    "j": ("ja", "misaki-ja"),
+    "p": ("pt-br", "espeak"),
+    "z": ("cmn", "misaki-zh"),
+}
+
+# ── Bộ máy Kokoro ────────────────────────────────────────────────────────────
+# Tải thẳng từ release CÔNG KHAI: model là mã nguồn mở (Apache-2.0), mã hoá hay đưa vào repo
+# private không chặn thêm ai mà chỉ thêm 750 MB phải tự host.
+#
+# sha256 đo trên chính file đã tải về (17/08/2026), khớp tài liệu TICH_HOP_KOKORO.md.
+KOKORO_GH = "https://github.com/thewh1teagle/kokoro-onnx/releases/download"
+ENGINES = {
+    "kokoro/v1.0": {
+        "label": "Bộ đa ngôn ngữ (Anh, Nhật, Pháp, Ý, TBN, Bồ, Ấn + 8 giọng Trung)",
+        "files": [
+            {
+                "as": "model.onnx",
+                "url": f"{KOKORO_GH}/model-files-v1.0/kokoro-v1.0.onnx",
+                "sha256": "7d5df8ecf7d4b1878015a32686053fd0eebe2bc377234608764cc0ef3636a6c5",
+                "bytes": 325532387,
+            },
+            {
+                "as": "voices.bin",
+                "url": f"{KOKORO_GH}/model-files-v1.0/voices-v1.0.bin",
+                "sha256": "bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d",
+                "bytes": 28214398,
+            },
+        ],
+    },
+    "kokoro/v1.1-zh": {
+        "label": "Bộ tiếng Trung (100 giọng)",
+        "files": [
+            {
+                "as": "model.onnx",
+                "url": f"{KOKORO_GH}/model-files-v1.1/kokoro-v1.1-zh.onnx",
+                "sha256": "eefec708cbc7aba8e8129b5c2f7cb92e1fe7d281af1e1dd451592d9ff0714a0d",
+                "bytes": 343605188,
+            },
+            {
+                "as": "voices.bin",
+                "url": f"{KOKORO_GH}/model-files-v1.1/voices-v1.1-zh.bin",
+                "sha256": "14cb6186c99e4f6016871405f62046c5df863ae27465cbdc4ee08be7dd703acd",
+                "bytes": 53815880,
+            },
+            {
+                # Vocab chú âm của riêng bản v1.1-zh. Release kokoro-onnx KHÔNG kèm file này;
+                # nguồn công khai là chính repo model trên HuggingFace (Apache-2.0). Đã đối
+                # chiếu: giống hệt bản đi kèm app tham chiếu.
+                "as": "config.json",
+                "url": "https://huggingface.co/hexgrad/Kokoro-82M-v1.1-zh/resolve/main/config.json",
+                "sha256": "bc333efa5ce4ceff433c8c8e5d027a1eca0166001e4e4a62bea2d26ff7a46890",
+                "bytes": 3228,
+            },
+        ],
+    },
+}
+
 
 def strip_accents(text: str) -> str:
     """Bỏ dấu tiếng Việt, giữ lại chữ cái ASCII."""
@@ -65,6 +141,21 @@ def read_script(txt_path: Path) -> str:
     return collapsed[:SCRIPT_PREVIEW_CHARS].rsplit(" ", 1)[0] + "…"
 
 
+def kokoro_fields(name: str) -> dict:
+    """
+    Các trường app cần để chạy một giọng Kokoro. Rỗng nếu đây là giọng Piper.
+
+    App đọc `engine` để biết đơn vị tải (giọng lẻ hay bộ máy dùng chung), `model` để biết ghép
+    với bộ máy nào, `ref` là tên trong bank, `lang`+`g2p` để chọn đường phiên âm. Thiếu trường
+    nào thì app coi giọng đó là Piper và sẽ đi tìm một file .onnx không tồn tại.
+    """
+    if not RE_KOKORO.match(name):
+        return {}
+    lang, g2p = KOKORO_LANG[name[0]]
+    model = "kokoro/v1.1-zh" if RE_ZH_V11.match(name) else "kokoro/v1.0"
+    return {"engine": "kokoro", "model": model, "ref": name, "lang": lang, "g2p": g2p}
+
+
 def build_voice_entry(lang_dir: Path, voice_dir: Path) -> dict | None:
     name = voice_dir.name
     wav_path = voice_dir / f"{name}.wav"
@@ -85,6 +176,7 @@ def build_voice_entry(lang_dir: Path, voice_dir: Path) -> dict | None:
         "duration": probe_duration(mp3_path),
         "sizeKb": round(mp3_path.stat().st_size / 1024),
         "script": read_script(voice_dir / f"{name}.txt"),
+        **kokoro_fields(name),
     }
 
 
@@ -110,12 +202,28 @@ def main() -> int:
                 voices.append(entry)
                 print(f"  + {entry['name']:<32} {entry['duration']}s  {entry['sizeKb']}KB")
 
+    # Chỉ khai bộ máy nào THẬT SỰ có giọng dùng tới. Khai thừa là app hiện một cục 350 MB cho
+    # khách tải mà không giọng nào dùng.
+    dung_toi = {v["model"] for v in voices if v.get("model")}
+    engines = {
+        eid: {
+            **cau_hinh,
+            "bytes": sum(f["bytes"] for f in cau_hinh["files"]),
+        }
+        for eid, cau_hinh in ENGINES.items()
+        if eid in dung_toi
+    }
+
     DATA_OUT.write_text(
-        json.dumps({"voices": voices}, ensure_ascii=False, indent=2),
+        json.dumps({"voices": voices, "engines": engines}, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
     total_mb = sum(v["sizeKb"] for v in voices) / 1024
-    print(f"\nXong: {len(voices)} giong, tong audio {total_mb:.1f} MB -> {DATA_OUT}")
+    kokoro = sum(1 for v in voices if v.get("engine") == "kokoro")
+    print(f"\nXong: {len(voices)} giong ({kokoro} Kokoro, {len(voices)-kokoro} Piper)")
+    for eid, e in engines.items():
+        print(f"  bo may {eid}: {e['bytes']/1e6:.0f} MB, {sum(1 for v in voices if v.get('model')==eid)} giong")
+    print(f"tong audio nghe thu {total_mb:.1f} MB -> {DATA_OUT}")
     return 0
 
 

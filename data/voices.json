@@ -7,7 +7,12 @@
       "audio": "audio/tieng-anh--af-alloy.mp3",
       "duration": 7.1,
       "sizeKb": 56,
-      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience."
+      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience.",
+      "engine": "kokoro",
+      "model": "kokoro/v1.0",
+      "ref": "af_alloy",
+      "lang": "en-us",
+      "g2p": "espeak"
     },
     {
       "id": "tieng-anh--af-aoede",
@@ -16,7 +21,12 @@
       "audio": "audio/tieng-anh--af-aoede.mp3",
       "duration": 6.9,
       "sizeKb": 55,
-      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience."
+      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience.",
+      "engine": "kokoro",
+      "model": "kokoro/v1.0",
+      "ref": "af_aoede",
+      "lang": "en-us",
+      "g2p": "espeak"
     },
     {
       "id": "tieng-anh--af-bella",
@@ -25,7 +35,12 @@
       "audio": "audio/tieng-anh--af-bella.mp3",
       "duration": 7.5,
       "sizeKb": 59,
-      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience."
+      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience.",
+      "engine": "kokoro",
+      "model": "kokoro/v1.0",
+      "ref": "af_bella",
+      "lang": "en-us",
+      "g2p": "espeak"
     },
     {
       "id": "tieng-anh--af-heart",
@@ -34,7 +49,12 @@
       "audio": "audio/tieng-anh--af-heart.mp3",
       "duration": 7.0,
       "sizeKb": 55,
-      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience."
+      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience.",
+      "engine": "kokoro",
+      "model": "kokoro/v1.0",
+      "ref": "af_heart",
+      "lang": "en-us",
+      "g2p": "espeak"
     },
     {
       "id": "tieng-anh--af-jessica",
@@ -43,7 +63,12 @@
       "audio": "audio/tieng-anh--af-jessica.mp3",
       "duration": 6.4,
       "sizeKb": 51,
-      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience."
+      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience.",
+      "engine": "kokoro",
+      "model": "kokoro/v1.0",
+      "ref": "af_jessica",
+      "lang": "en-us",
+      "g2p": "espeak"
     },
     {
       "id": "tieng-anh--af-kore",
@@ -52,7 +77,12 @@
       "audio": "audio/tieng-anh--af-kore.mp3",
       "duration": 7.6,
       "sizeKb": 60,
-      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience."
+      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience.",
+      "engine": "kokoro",
+      "model": "kokoro/v1.0",
+      "ref": "af_kore",
+      "lang": "en-us",
+      "g2p": "espeak"
     },
     {
       "id": "tieng-anh--af-nicole",
@@ -61,7 +91,12 @@
       "audio": "audio/tieng-anh--af-nicole.mp3",
       "duration": 10.9,
       "sizeKb": 86,
-      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience."
+      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience.",
+      "engine": "kokoro",
+      "model": "kokoro/v1.0",
+      "ref": "af_nicole",
+      "lang": "en-us",
+      "g2p": "espeak"
     },
     {
       "id": "tieng-anh--af-nova",
@@ -70,7 +105,12 @@
       "audio": "audio/tieng-anh--af-nova.mp3",
       "duration": 6.8,
       "sizeKb": 54,
-      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience."
+      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience.",
+      "engine": "kokoro",
+      "model": "kokoro/v1.0",
+      "ref": "af_nova",
+      "lang": "en-us",
+      "g2p": "espeak"
     },
     {
       "id": "tieng-anh--af-river",
@@ -79,7 +119,12 @@
       "audio": "audio/tieng-anh--af-river.mp3",
       "duration": 6.2,
       "sizeKb": 49,
-      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience."
+      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience.",
+      "engine": "kokoro",
+      "model": "kokoro/v1.0",
+      "ref": "af_river",
+      "lang": "en-us",
+      "g2p": "espeak"
     },
     {
       "id": "tieng-anh--af-sarah",
@@ -88,7 +133,12 @@
       "audio": "audio/tieng-anh--af-sarah.mp3",
       "duration": 6.8,
       "sizeKb": 54,
-      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience."
+      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience.",
+      "engine": "kokoro",
+      "model": "kokoro/v1.0",
+      "ref": "af_sarah",
+      "lang": "en-us",
+      "g2p": "espeak"
     },
     {
       "id": "tieng-anh--af-sky",
@@ -97,7 +147,12 @@
       "audio": "audio/tieng-anh--af-sky.mp3",
       "duration": 6.9,
       "sizeKb": 55,
-      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience."
+      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience.",
+      "engine": "kokoro",
+      "model": "kokoro/v1.0",
+      "ref": "af_sky",
+      "lang": "en-us",
+      "g2p": "espeak"
     },
     {
       "id": "tieng-anh--am-adam",
@@ -106,7 +161,12 @@
       "audio": "audio/tieng-anh--am-adam.mp3",
       "duration": 6.8,
       "sizeKb": 54,
-      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience."
+      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience.",
+      "engine": "kokoro",
+      "model": "kokoro/v1.0",
+      "ref": "am_adam",
+      "lang": "en-us",
+      "g2p": "espeak"
     },
     {
       "id": "tieng-anh--am-echo",
@@ -115,7 +175,12 @@
       "audio": "audio/tieng-anh--am-echo.mp3",
       "duration": 6.7,
       "sizeKb": 53,
-      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience."
+      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience.",
+      "engine": "kokoro",
+      "model": "kokoro/v1.0",
+      "ref": "am_echo",
+      "lang": "en-us",
+      "g2p": "espeak"
     },
     {
       "id": "tieng-anh--am-eric",
@@ -124,7 +189,12 @@
       "audio": "audio/tieng-anh--am-eric.mp3",
       "duration": 6.1,
       "sizeKb": 49,
-      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience."
+      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience.",
+      "engine": "kokoro",
+      "model": "kokoro/v1.0",
+      "ref": "am_eric",
+      "lang": "en-us",
+      "g2p": "espeak"
     },
     {
       "id": "tieng-anh--am-fenrir",
@@ -133,7 +203,12 @@
       "audio": "audio/tieng-anh--am-fenrir.mp3",
       "duration": 7.1,
       "sizeKb": 56,
-      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience."
+      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience.",
+      "engine": "kokoro",
+      "model": "kokoro/v1.0",
+      "ref": "am_fenrir",
+      "lang": "en-us",
+      "g2p": "espeak"
     },
     {
       "id": "tieng-anh--am-liam",
@@ -142,7 +217,12 @@
       "audio": "audio/tieng-anh--am-liam.mp3",
       "duration": 6.3,
       "sizeKb": 50,
-      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience."
+      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience.",
+      "engine": "kokoro",
+      "model": "kokoro/v1.0",
+      "ref": "am_liam",
+      "lang": "en-us",
+      "g2p": "espeak"
     },
     {
       "id": "tieng-anh--am-michael",
@@ -151,7 +231,12 @@
       "audio": "audio/tieng-anh--am-michael.mp3",
       "duration": 7.8,
       "sizeKb": 62,
-      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience."
+      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience.",
+      "engine": "kokoro",
+      "model": "kokoro/v1.0",
+      "ref": "am_michael",
+      "lang": "en-us",
+      "g2p": "espeak"
     },
     {
       "id": "tieng-anh--am-onyx",
@@ -160,7 +245,12 @@
       "audio": "audio/tieng-anh--am-onyx.mp3",
       "duration": 6.9,
       "sizeKb": 55,
-      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience."
+      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience.",
+      "engine": "kokoro",
+      "model": "kokoro/v1.0",
+      "ref": "am_onyx",
+      "lang": "en-us",
+      "g2p": "espeak"
     },
     {
       "id": "tieng-anh--am-puck",
@@ -169,7 +259,12 @@
       "audio": "audio/tieng-anh--am-puck.mp3",
       "duration": 7.1,
       "sizeKb": 56,
-      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience."
+      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience.",
+      "engine": "kokoro",
+      "model": "kokoro/v1.0",
+      "ref": "am_puck",
+      "lang": "en-us",
+      "g2p": "espeak"
     },
     {
       "id": "tieng-anh--am-santa",
@@ -178,7 +273,12 @@
       "audio": "audio/tieng-anh--am-santa.mp3",
       "duration": 7.8,
       "sizeKb": 62,
-      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience."
+      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience.",
+      "engine": "kokoro",
+      "model": "kokoro/v1.0",
+      "ref": "am_santa",
+      "lang": "en-us",
+      "g2p": "espeak"
     },
     {
       "id": "tieng-anh--arctic",
@@ -196,7 +296,12 @@
       "audio": "audio/tieng-anh--bf-alice.mp3",
       "duration": 7.1,
       "sizeKb": 56,
-      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience."
+      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience.",
+      "engine": "kokoro",
+      "model": "kokoro/v1.0",
+      "ref": "bf_alice",
+      "lang": "en-gb",
+      "g2p": "espeak"
     },
     {
       "id": "tieng-anh--bf-emma",
@@ -205,7 +310,12 @@
       "audio": "audio/tieng-anh--bf-emma.mp3",
       "duration": 6.6,
       "sizeKb": 52,
-      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience."
+      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience.",
+      "engine": "kokoro",
+      "model": "kokoro/v1.0",
+      "ref": "bf_emma",
+      "lang": "en-gb",
+      "g2p": "espeak"
     },
     {
       "id": "tieng-anh--bf-isabella",
@@ -214,7 +324,12 @@
       "audio": "audio/tieng-anh--bf-isabella.mp3",
       "duration": 6.7,
       "sizeKb": 53,
-      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience."
+      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience.",
+      "engine": "kokoro",
+      "model": "kokoro/v1.0",
+      "ref": "bf_isabella",
+      "lang": "en-gb",
+      "g2p": "espeak"
     },
     {
       "id": "tieng-anh--bf-lily",
@@ -223,7 +338,12 @@
       "audio": "audio/tieng-anh--bf-lily.mp3",
       "duration": 6.8,
       "sizeKb": 54,
-      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience."
+      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience.",
+      "engine": "kokoro",
+      "model": "kokoro/v1.0",
+      "ref": "bf_lily",
+      "lang": "en-gb",
+      "g2p": "espeak"
     },
     {
       "id": "tieng-anh--bm-daniel",
@@ -232,7 +352,12 @@
       "audio": "audio/tieng-anh--bm-daniel.mp3",
       "duration": 6.6,
       "sizeKb": 53,
-      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience."
+      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience.",
+      "engine": "kokoro",
+      "model": "kokoro/v1.0",
+      "ref": "bm_daniel",
+      "lang": "en-gb",
+      "g2p": "espeak"
     },
     {
       "id": "tieng-anh--bm-fable",
@@ -241,7 +366,12 @@
       "audio": "audio/tieng-anh--bm-fable.mp3",
       "duration": 7.1,
       "sizeKb": 56,
-      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience."
+      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience.",
+      "engine": "kokoro",
+      "model": "kokoro/v1.0",
+      "ref": "bm_fable",
+      "lang": "en-gb",
+      "g2p": "espeak"
     },
     {
       "id": "tieng-anh--bm-george",
@@ -250,7 +380,12 @@
       "audio": "audio/tieng-anh--bm-george.mp3",
       "duration": 7.7,
       "sizeKb": 61,
-      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience."
+      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience.",
+      "engine": "kokoro",
+      "model": "kokoro/v1.0",
+      "ref": "bm_george",
+      "lang": "en-gb",
+      "g2p": "espeak"
     },
     {
       "id": "tieng-anh--bm-lewis",
@@ -259,7 +394,12 @@
       "audio": "audio/tieng-anh--bm-lewis.mp3",
       "duration": 7.5,
       "sizeKb": 59,
-      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience."
+      "script": "Hello and welcome. Listen to our natural-sounding synthetic voice and enjoy a smooth, clear reading experience.",
+      "engine": "kokoro",
+      "model": "kokoro/v1.0",
+      "ref": "bm_lewis",
+      "lang": "en-gb",
+      "g2p": "espeak"
     },
     {
       "id": "tieng-anh--brian",
@@ -421,7 +561,12 @@
       "audio": "audio/tieng-bo-dao-nha--pf-dora.mp3",
       "duration": 5.1,
       "sizeKb": 41,
-      "script": "Olá e bem-vindo. Conheça a nossa voz sintética com um som natural e agradável de ouvir."
+      "script": "Olá e bem-vindo. Conheça a nossa voz sintética com um som natural e agradável de ouvir.",
+      "engine": "kokoro",
+      "model": "kokoro/v1.0",
+      "ref": "pf_dora",
+      "lang": "pt-br",
+      "g2p": "espeak"
     },
     {
       "id": "tieng-bo-dao-nha--pm-alex",
@@ -430,7 +575,12 @@
       "audio": "audio/tieng-bo-dao-nha--pm-alex.mp3",
       "duration": 5.1,
       "sizeKb": 41,
-      "script": "Olá e bem-vindo. Conheça a nossa voz sintética com um som natural e agradável de ouvir."
+      "script": "Olá e bem-vindo. Conheça a nossa voz sintética com um som natural e agradável de ouvir.",
+      "engine": "kokoro",
+      "model": "kokoro/v1.0",
+      "ref": "pm_alex",
+      "lang": "pt-br",
+      "g2p": "espeak"
     },
     {
       "id": "tieng-bo-dao-nha--pm-santa",
@@ -439,7 +589,12 @@
       "audio": "audio/tieng-bo-dao-nha--pm-santa.mp3",
       "duration": 5.3,
       "sizeKb": 42,
-      "script": "Olá e bem-vindo. Conheça a nossa voz sintética com um som natural e agradável de ouvir."
+      "script": "Olá e bem-vindo. Conheça a nossa voz sintética com um som natural e agradável de ouvir.",
+      "engine": "kokoro",
+      "model": "kokoro/v1.0",
+      "ref": "pm_santa",
+      "lang": "pt-br",
+      "g2p": "espeak"
     },
     {
       "id": "tieng-nhat--jf-alpha",
@@ -448,7 +603,12 @@
       "audio": "audio/tieng-nhat--jf-alpha.mp3",
       "duration": 8.4,
       "sizeKb": 66,
-      "script": "こんにちは。私たちの音声合成をお試しください。自然で聞き取りやすい声をお届けします。"
+      "script": "こんにちは。私たちの音声合成をお試しください。自然で聞き取りやすい声をお届けします。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.0",
+      "ref": "jf_alpha",
+      "lang": "ja",
+      "g2p": "misaki-ja"
     },
     {
       "id": "tieng-nhat--jf-gongitsune",
@@ -457,7 +617,12 @@
       "audio": "audio/tieng-nhat--jf-gongitsune.mp3",
       "duration": 10.0,
       "sizeKb": 79,
-      "script": "こんにちは。私たちの音声合成をお試しください。自然で聞き取りやすい声をお届けします。"
+      "script": "こんにちは。私たちの音声合成をお試しください。自然で聞き取りやすい声をお届けします。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.0",
+      "ref": "jf_gongitsune",
+      "lang": "ja",
+      "g2p": "misaki-ja"
     },
     {
       "id": "tieng-nhat--jf-nezumi",
@@ -466,7 +631,12 @@
       "audio": "audio/tieng-nhat--jf-nezumi.mp3",
       "duration": 10.0,
       "sizeKb": 79,
-      "script": "こんにちは。私たちの音声合成をお試しください。自然で聞き取りやすい声をお届けします。"
+      "script": "こんにちは。私たちの音声合成をお試しください。自然で聞き取りやすい声をお届けします。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.0",
+      "ref": "jf_nezumi",
+      "lang": "ja",
+      "g2p": "misaki-ja"
     },
     {
       "id": "tieng-nhat--jf-tebukuro",
@@ -475,7 +645,12 @@
       "audio": "audio/tieng-nhat--jf-tebukuro.mp3",
       "duration": 9.6,
       "sizeKb": 76,
-      "script": "こんにちは。私たちの音声合成をお試しください。自然で聞き取りやすい声をお届けします。"
+      "script": "こんにちは。私たちの音声合成をお試しください。自然で聞き取りやすい声をお届けします。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.0",
+      "ref": "jf_tebukuro",
+      "lang": "ja",
+      "g2p": "misaki-ja"
     },
     {
       "id": "tieng-nhat--jm-kumo",
@@ -484,7 +659,12 @@
       "audio": "audio/tieng-nhat--jm-kumo.mp3",
       "duration": 8.8,
       "sizeKb": 69,
-      "script": "こんにちは。私たちの音声合成をお試しください。自然で聞き取りやすい声をお届けします。"
+      "script": "こんにちは。私たちの音声合成をお試しください。自然で聞き取りやすい声をお届けします。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.0",
+      "ref": "jm_kumo",
+      "lang": "ja",
+      "g2p": "misaki-ja"
     },
     {
       "id": "tieng-phap--ff-siwis",
@@ -493,7 +673,12 @@
       "audio": "audio/tieng-phap--ff-siwis.mp3",
       "duration": 5.3,
       "sizeKb": 42,
-      "script": "Bonjour et bienvenue. Découvrez notre voix de synthèse au son naturel et agréable à écouter."
+      "script": "Bonjour et bienvenue. Découvrez notre voix de synthèse au son naturel et agréable à écouter.",
+      "engine": "kokoro",
+      "model": "kokoro/v1.0",
+      "ref": "ff_siwis",
+      "lang": "fr-fr",
+      "g2p": "espeak"
     },
     {
       "id": "tieng-trung--zf-001",
@@ -502,7 +687,12 @@
       "audio": "audio/tieng-trung--zf-001.mp3",
       "duration": 7.2,
       "sizeKb": 57,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zf_001",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zf-002",
@@ -511,7 +701,12 @@
       "audio": "audio/tieng-trung--zf-002.mp3",
       "duration": 7.7,
       "sizeKb": 60,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zf_002",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zf-003",
@@ -520,7 +715,12 @@
       "audio": "audio/tieng-trung--zf-003.mp3",
       "duration": 8.1,
       "sizeKb": 64,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zf_003",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zf-004",
@@ -529,7 +729,12 @@
       "audio": "audio/tieng-trung--zf-004.mp3",
       "duration": 8.2,
       "sizeKb": 65,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zf_004",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zf-005",
@@ -538,7 +743,12 @@
       "audio": "audio/tieng-trung--zf-005.mp3",
       "duration": 7.7,
       "sizeKb": 61,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zf_005",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zf-006",
@@ -547,7 +757,12 @@
       "audio": "audio/tieng-trung--zf-006.mp3",
       "duration": 7.8,
       "sizeKb": 62,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zf_006",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zf-007",
@@ -556,7 +771,12 @@
       "audio": "audio/tieng-trung--zf-007.mp3",
       "duration": 7.4,
       "sizeKb": 58,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zf_007",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zf-008",
@@ -565,7 +785,12 @@
       "audio": "audio/tieng-trung--zf-008.mp3",
       "duration": 8.2,
       "sizeKb": 65,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zf_008",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zf-017",
@@ -574,7 +799,12 @@
       "audio": "audio/tieng-trung--zf-017.mp3",
       "duration": 7.9,
       "sizeKb": 63,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zf_017",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zf-018",
@@ -583,7 +813,12 @@
       "audio": "audio/tieng-trung--zf-018.mp3",
       "duration": 8.7,
       "sizeKb": 68,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zf_018",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zf-019",
@@ -592,7 +827,12 @@
       "audio": "audio/tieng-trung--zf-019.mp3",
       "duration": 8.7,
       "sizeKb": 69,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zf_019",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zf-021",
@@ -601,7 +841,12 @@
       "audio": "audio/tieng-trung--zf-021.mp3",
       "duration": 7.4,
       "sizeKb": 59,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zf_021",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zf-022",
@@ -610,7 +855,12 @@
       "audio": "audio/tieng-trung--zf-022.mp3",
       "duration": 9.2,
       "sizeKb": 72,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zf_022",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zf-023",
@@ -619,7 +869,12 @@
       "audio": "audio/tieng-trung--zf-023.mp3",
       "duration": 7.8,
       "sizeKb": 62,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zf_023",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zf-024",
@@ -628,7 +883,12 @@
       "audio": "audio/tieng-trung--zf-024.mp3",
       "duration": 8.5,
       "sizeKb": 67,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zf_024",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zf-026",
@@ -637,7 +897,12 @@
       "audio": "audio/tieng-trung--zf-026.mp3",
       "duration": 8.0,
       "sizeKb": 63,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zf_026",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zf-027",
@@ -646,7 +911,12 @@
       "audio": "audio/tieng-trung--zf-027.mp3",
       "duration": 7.8,
       "sizeKb": 61,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zf_027",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zf-028",
@@ -655,7 +925,12 @@
       "audio": "audio/tieng-trung--zf-028.mp3",
       "duration": 8.0,
       "sizeKb": 63,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zf_028",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zf-032",
@@ -664,7 +939,12 @@
       "audio": "audio/tieng-trung--zf-032.mp3",
       "duration": 8.2,
       "sizeKb": 65,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zf_032",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zf-036",
@@ -673,7 +953,12 @@
       "audio": "audio/tieng-trung--zf-036.mp3",
       "duration": 7.7,
       "sizeKb": 61,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zf_036",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zf-038",
@@ -682,7 +967,12 @@
       "audio": "audio/tieng-trung--zf-038.mp3",
       "duration": 8.9,
       "sizeKb": 71,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zf_038",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zf-039",
@@ -691,7 +981,12 @@
       "audio": "audio/tieng-trung--zf-039.mp3",
       "duration": 8.9,
       "sizeKb": 70,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zf_039",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zf-040",
@@ -700,7 +995,12 @@
       "audio": "audio/tieng-trung--zf-040.mp3",
       "duration": 8.7,
       "sizeKb": 69,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zf_040",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zf-042",
@@ -709,7 +1009,12 @@
       "audio": "audio/tieng-trung--zf-042.mp3",
       "duration": 8.8,
       "sizeKb": 69,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zf_042",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zf-043",
@@ -718,7 +1023,12 @@
       "audio": "audio/tieng-trung--zf-043.mp3",
       "duration": 8.6,
       "sizeKb": 68,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zf_043",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zf-044",
@@ -727,7 +1037,12 @@
       "audio": "audio/tieng-trung--zf-044.mp3",
       "duration": 8.1,
       "sizeKb": 64,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zf_044",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zf-046",
@@ -736,7 +1051,12 @@
       "audio": "audio/tieng-trung--zf-046.mp3",
       "duration": 8.9,
       "sizeKb": 70,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zf_046",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zf-047",
@@ -745,7 +1065,12 @@
       "audio": "audio/tieng-trung--zf-047.mp3",
       "duration": 8.1,
       "sizeKb": 64,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zf_047",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zf-048",
@@ -754,7 +1079,12 @@
       "audio": "audio/tieng-trung--zf-048.mp3",
       "duration": 10.2,
       "sizeKb": 80,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zf_048",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zf-049",
@@ -763,7 +1093,12 @@
       "audio": "audio/tieng-trung--zf-049.mp3",
       "duration": 8.9,
       "sizeKb": 70,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zf_049",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zf-051",
@@ -772,7 +1107,12 @@
       "audio": "audio/tieng-trung--zf-051.mp3",
       "duration": 9.3,
       "sizeKb": 73,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zf_051",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zf-059",
@@ -781,7 +1121,12 @@
       "audio": "audio/tieng-trung--zf-059.mp3",
       "duration": 8.0,
       "sizeKb": 63,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zf_059",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zf-060",
@@ -790,7 +1135,12 @@
       "audio": "audio/tieng-trung--zf-060.mp3",
       "duration": 8.8,
       "sizeKb": 70,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zf_060",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zf-067",
@@ -799,7 +1149,12 @@
       "audio": "audio/tieng-trung--zf-067.mp3",
       "duration": 8.2,
       "sizeKb": 65,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zf_067",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zf-070",
@@ -808,7 +1163,12 @@
       "audio": "audio/tieng-trung--zf-070.mp3",
       "duration": 8.8,
       "sizeKb": 69,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zf_070",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zf-071",
@@ -817,7 +1177,12 @@
       "audio": "audio/tieng-trung--zf-071.mp3",
       "duration": 8.6,
       "sizeKb": 68,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zf_071",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zf-072",
@@ -826,7 +1191,12 @@
       "audio": "audio/tieng-trung--zf-072.mp3",
       "duration": 8.2,
       "sizeKb": 65,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zf_072",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zf-073",
@@ -835,7 +1205,12 @@
       "audio": "audio/tieng-trung--zf-073.mp3",
       "duration": 8.7,
       "sizeKb": 69,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zf_073",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zf-074",
@@ -844,7 +1219,12 @@
       "audio": "audio/tieng-trung--zf-074.mp3",
       "duration": 8.5,
       "sizeKb": 67,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zf_074",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zf-075",
@@ -853,7 +1233,12 @@
       "audio": "audio/tieng-trung--zf-075.mp3",
       "duration": 9.2,
       "sizeKb": 73,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zf_075",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zf-076",
@@ -862,7 +1247,12 @@
       "audio": "audio/tieng-trung--zf-076.mp3",
       "duration": 8.4,
       "sizeKb": 66,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zf_076",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zf-077",
@@ -871,7 +1261,12 @@
       "audio": "audio/tieng-trung--zf-077.mp3",
       "duration": 8.2,
       "sizeKb": 65,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zf_077",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zf-078",
@@ -880,7 +1275,12 @@
       "audio": "audio/tieng-trung--zf-078.mp3",
       "duration": 8.9,
       "sizeKb": 70,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zf_078",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zf-079",
@@ -889,7 +1289,12 @@
       "audio": "audio/tieng-trung--zf-079.mp3",
       "duration": 9.0,
       "sizeKb": 71,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zf_079",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zf-083",
@@ -898,7 +1303,12 @@
       "audio": "audio/tieng-trung--zf-083.mp3",
       "duration": 8.5,
       "sizeKb": 67,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zf_083",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zf-084",
@@ -907,7 +1317,12 @@
       "audio": "audio/tieng-trung--zf-084.mp3",
       "duration": 8.7,
       "sizeKb": 69,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zf_084",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zf-085",
@@ -916,7 +1331,12 @@
       "audio": "audio/tieng-trung--zf-085.mp3",
       "duration": 9.4,
       "sizeKb": 74,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zf_085",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zf-086",
@@ -925,7 +1345,12 @@
       "audio": "audio/tieng-trung--zf-086.mp3",
       "duration": 8.5,
       "sizeKb": 67,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zf_086",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zf-087",
@@ -934,7 +1359,12 @@
       "audio": "audio/tieng-trung--zf-087.mp3",
       "duration": 9.0,
       "sizeKb": 71,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zf_087",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zf-088",
@@ -943,7 +1373,12 @@
       "audio": "audio/tieng-trung--zf-088.mp3",
       "duration": 7.2,
       "sizeKb": 57,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zf_088",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zf-090",
@@ -952,7 +1387,12 @@
       "audio": "audio/tieng-trung--zf-090.mp3",
       "duration": 9.3,
       "sizeKb": 73,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zf_090",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zf-092",
@@ -961,7 +1401,12 @@
       "audio": "audio/tieng-trung--zf-092.mp3",
       "duration": 7.9,
       "sizeKb": 62,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zf_092",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zf-093",
@@ -970,7 +1415,12 @@
       "audio": "audio/tieng-trung--zf-093.mp3",
       "duration": 8.4,
       "sizeKb": 67,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zf_093",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zf-094",
@@ -979,7 +1429,12 @@
       "audio": "audio/tieng-trung--zf-094.mp3",
       "duration": 8.4,
       "sizeKb": 67,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zf_094",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zf-099",
@@ -988,7 +1443,12 @@
       "audio": "audio/tieng-trung--zf-099.mp3",
       "duration": 8.3,
       "sizeKb": 66,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zf_099",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zf-xiaobei",
@@ -997,7 +1457,12 @@
       "audio": "audio/tieng-trung--zf-xiaobei.mp3",
       "duration": 8.6,
       "sizeKb": 68,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.0",
+      "ref": "zf_xiaobei",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zf-xiaoni",
@@ -1006,7 +1471,12 @@
       "audio": "audio/tieng-trung--zf-xiaoni.mp3",
       "duration": 7.5,
       "sizeKb": 59,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.0",
+      "ref": "zf_xiaoni",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zf-xiaoxiao",
@@ -1015,7 +1485,12 @@
       "audio": "audio/tieng-trung--zf-xiaoxiao.mp3",
       "duration": 7.2,
       "sizeKb": 57,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.0",
+      "ref": "zf_xiaoxiao",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zf-xiaoyi",
@@ -1024,7 +1499,12 @@
       "audio": "audio/tieng-trung--zf-xiaoyi.mp3",
       "duration": 7.2,
       "sizeKb": 57,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.0",
+      "ref": "zf_xiaoyi",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zm-009",
@@ -1033,7 +1513,12 @@
       "audio": "audio/tieng-trung--zm-009.mp3",
       "duration": 7.2,
       "sizeKb": 57,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zm_009",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zm-010",
@@ -1042,7 +1527,12 @@
       "audio": "audio/tieng-trung--zm-010.mp3",
       "duration": 7.1,
       "sizeKb": 56,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zm_010",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zm-011",
@@ -1051,7 +1541,12 @@
       "audio": "audio/tieng-trung--zm-011.mp3",
       "duration": 7.2,
       "sizeKb": 57,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zm_011",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zm-012",
@@ -1060,7 +1555,12 @@
       "audio": "audio/tieng-trung--zm-012.mp3",
       "duration": 7.3,
       "sizeKb": 58,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zm_012",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zm-013",
@@ -1069,7 +1569,12 @@
       "audio": "audio/tieng-trung--zm-013.mp3",
       "duration": 6.8,
       "sizeKb": 54,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zm_013",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zm-014",
@@ -1078,7 +1583,12 @@
       "audio": "audio/tieng-trung--zm-014.mp3",
       "duration": 8.0,
       "sizeKb": 63,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zm_014",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zm-015",
@@ -1087,7 +1597,12 @@
       "audio": "audio/tieng-trung--zm-015.mp3",
       "duration": 7.5,
       "sizeKb": 59,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zm_015",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zm-016",
@@ -1096,7 +1611,12 @@
       "audio": "audio/tieng-trung--zm-016.mp3",
       "duration": 7.8,
       "sizeKb": 61,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zm_016",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zm-020",
@@ -1105,7 +1625,12 @@
       "audio": "audio/tieng-trung--zm-020.mp3",
       "duration": 10.2,
       "sizeKb": 80,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zm_020",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zm-025",
@@ -1114,7 +1639,12 @@
       "audio": "audio/tieng-trung--zm-025.mp3",
       "duration": 8.2,
       "sizeKb": 65,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zm_025",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zm-029",
@@ -1123,7 +1653,12 @@
       "audio": "audio/tieng-trung--zm-029.mp3",
       "duration": 7.9,
       "sizeKb": 63,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zm_029",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zm-030",
@@ -1132,7 +1667,12 @@
       "audio": "audio/tieng-trung--zm-030.mp3",
       "duration": 9.1,
       "sizeKb": 71,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zm_030",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zm-031",
@@ -1141,7 +1681,12 @@
       "audio": "audio/tieng-trung--zm-031.mp3",
       "duration": 8.9,
       "sizeKb": 70,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zm_031",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zm-033",
@@ -1150,7 +1695,12 @@
       "audio": "audio/tieng-trung--zm-033.mp3",
       "duration": 8.3,
       "sizeKb": 66,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zm_033",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zm-034",
@@ -1159,7 +1709,12 @@
       "audio": "audio/tieng-trung--zm-034.mp3",
       "duration": 8.5,
       "sizeKb": 67,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zm_034",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zm-035",
@@ -1168,7 +1723,12 @@
       "audio": "audio/tieng-trung--zm-035.mp3",
       "duration": 9.2,
       "sizeKb": 72,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zm_035",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zm-037",
@@ -1177,7 +1737,12 @@
       "audio": "audio/tieng-trung--zm-037.mp3",
       "duration": 9.2,
       "sizeKb": 72,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zm_037",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zm-041",
@@ -1186,7 +1751,12 @@
       "audio": "audio/tieng-trung--zm-041.mp3",
       "duration": 7.8,
       "sizeKb": 62,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zm_041",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zm-045",
@@ -1195,7 +1765,12 @@
       "audio": "audio/tieng-trung--zm-045.mp3",
       "duration": 8.0,
       "sizeKb": 63,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zm_045",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zm-050",
@@ -1204,7 +1779,12 @@
       "audio": "audio/tieng-trung--zm-050.mp3",
       "duration": 8.1,
       "sizeKb": 64,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zm_050",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zm-052",
@@ -1213,7 +1793,12 @@
       "audio": "audio/tieng-trung--zm-052.mp3",
       "duration": 8.4,
       "sizeKb": 67,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zm_052",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zm-053",
@@ -1222,7 +1807,12 @@
       "audio": "audio/tieng-trung--zm-053.mp3",
       "duration": 9.8,
       "sizeKb": 77,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zm_053",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zm-054",
@@ -1231,7 +1821,12 @@
       "audio": "audio/tieng-trung--zm-054.mp3",
       "duration": 8.9,
       "sizeKb": 71,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zm_054",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zm-055",
@@ -1240,7 +1835,12 @@
       "audio": "audio/tieng-trung--zm-055.mp3",
       "duration": 8.7,
       "sizeKb": 68,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zm_055",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zm-056",
@@ -1249,7 +1849,12 @@
       "audio": "audio/tieng-trung--zm-056.mp3",
       "duration": 9.0,
       "sizeKb": 71,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zm_056",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zm-057",
@@ -1258,7 +1863,12 @@
       "audio": "audio/tieng-trung--zm-057.mp3",
       "duration": 9.0,
       "sizeKb": 71,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zm_057",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zm-058",
@@ -1267,7 +1877,12 @@
       "audio": "audio/tieng-trung--zm-058.mp3",
       "duration": 7.9,
       "sizeKb": 62,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zm_058",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zm-061",
@@ -1276,7 +1891,12 @@
       "audio": "audio/tieng-trung--zm-061.mp3",
       "duration": 9.1,
       "sizeKb": 72,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zm_061",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zm-062",
@@ -1285,7 +1905,12 @@
       "audio": "audio/tieng-trung--zm-062.mp3",
       "duration": 8.7,
       "sizeKb": 69,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zm_062",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zm-063",
@@ -1294,7 +1919,12 @@
       "audio": "audio/tieng-trung--zm-063.mp3",
       "duration": 8.4,
       "sizeKb": 67,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zm_063",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zm-064",
@@ -1303,7 +1933,12 @@
       "audio": "audio/tieng-trung--zm-064.mp3",
       "duration": 8.5,
       "sizeKb": 67,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zm_064",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zm-065",
@@ -1312,7 +1947,12 @@
       "audio": "audio/tieng-trung--zm-065.mp3",
       "duration": 8.9,
       "sizeKb": 70,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zm_065",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zm-066",
@@ -1321,7 +1961,12 @@
       "audio": "audio/tieng-trung--zm-066.mp3",
       "duration": 8.3,
       "sizeKb": 66,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zm_066",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zm-068",
@@ -1330,7 +1975,12 @@
       "audio": "audio/tieng-trung--zm-068.mp3",
       "duration": 8.3,
       "sizeKb": 66,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zm_068",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zm-069",
@@ -1339,7 +1989,12 @@
       "audio": "audio/tieng-trung--zm-069.mp3",
       "duration": 8.9,
       "sizeKb": 71,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zm_069",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zm-080",
@@ -1348,7 +2003,12 @@
       "audio": "audio/tieng-trung--zm-080.mp3",
       "duration": 9.2,
       "sizeKb": 72,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zm_080",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zm-081",
@@ -1357,7 +2017,12 @@
       "audio": "audio/tieng-trung--zm-081.mp3",
       "duration": 10.1,
       "sizeKb": 80,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zm_081",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zm-082",
@@ -1366,7 +2031,12 @@
       "audio": "audio/tieng-trung--zm-082.mp3",
       "duration": 8.4,
       "sizeKb": 67,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zm_082",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zm-089",
@@ -1375,7 +2045,12 @@
       "audio": "audio/tieng-trung--zm-089.mp3",
       "duration": 8.4,
       "sizeKb": 67,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zm_089",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zm-091",
@@ -1384,7 +2059,12 @@
       "audio": "audio/tieng-trung--zm-091.mp3",
       "duration": 8.5,
       "sizeKb": 67,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zm_091",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zm-095",
@@ -1393,7 +2073,12 @@
       "audio": "audio/tieng-trung--zm-095.mp3",
       "duration": 8.3,
       "sizeKb": 65,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zm_095",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zm-096",
@@ -1402,7 +2087,12 @@
       "audio": "audio/tieng-trung--zm-096.mp3",
       "duration": 8.0,
       "sizeKb": 63,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zm_096",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zm-097",
@@ -1411,7 +2101,12 @@
       "audio": "audio/tieng-trung--zm-097.mp3",
       "duration": 7.5,
       "sizeKb": 59,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zm_097",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zm-098",
@@ -1420,7 +2115,12 @@
       "audio": "audio/tieng-trung--zm-098.mp3",
       "duration": 9.3,
       "sizeKb": 74,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zm_098",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zm-100",
@@ -1429,7 +2129,12 @@
       "audio": "audio/tieng-trung--zm-100.mp3",
       "duration": 9.2,
       "sizeKb": 72,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.1-zh",
+      "ref": "zm_100",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zm-yunjian",
@@ -1438,7 +2143,12 @@
       "audio": "audio/tieng-trung--zm-yunjian.mp3",
       "duration": 7.2,
       "sizeKb": 57,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.0",
+      "ref": "zm_yunjian",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zm-yunxi",
@@ -1447,7 +2157,12 @@
       "audio": "audio/tieng-trung--zm-yunxi.mp3",
       "duration": 7.0,
       "sizeKb": 56,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.0",
+      "ref": "zm_yunxi",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zm-yunxia",
@@ -1456,7 +2171,12 @@
       "audio": "audio/tieng-trung--zm-yunxia.mp3",
       "duration": 7.7,
       "sizeKb": 61,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.0",
+      "ref": "zm_yunxia",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-trung--zm-yunyang",
@@ -1465,7 +2185,12 @@
       "audio": "audio/tieng-trung--zm-yunyang.mp3",
       "duration": 6.6,
       "sizeKb": 53,
-      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。"
+      "script": "大家好，欢迎试听我们的智能语音合成，希望这个声音自然流畅，听起来舒服。",
+      "engine": "kokoro",
+      "model": "kokoro/v1.0",
+      "ref": "zm_yunyang",
+      "lang": "cmn",
+      "g2p": "misaki-zh"
     },
     {
       "id": "tieng-tay-ban-nha--ef-dora",
@@ -1474,7 +2199,12 @@
       "audio": "audio/tieng-tay-ban-nha--ef-dora.mp3",
       "duration": 5.0,
       "sizeKb": 40,
-      "script": "Hola y bienvenido. Descubre nuestra voz sintética con un sonido natural y agradable."
+      "script": "Hola y bienvenido. Descubre nuestra voz sintética con un sonido natural y agradable.",
+      "engine": "kokoro",
+      "model": "kokoro/v1.0",
+      "ref": "ef_dora",
+      "lang": "es",
+      "g2p": "espeak"
     },
     {
       "id": "tieng-tay-ban-nha--em-alex",
@@ -1483,7 +2213,12 @@
       "audio": "audio/tieng-tay-ban-nha--em-alex.mp3",
       "duration": 5.1,
       "sizeKb": 41,
-      "script": "Hola y bienvenido. Descubre nuestra voz sintética con un sonido natural y agradable."
+      "script": "Hola y bienvenido. Descubre nuestra voz sintética con un sonido natural y agradable.",
+      "engine": "kokoro",
+      "model": "kokoro/v1.0",
+      "ref": "em_alex",
+      "lang": "es",
+      "g2p": "espeak"
     },
     {
       "id": "tieng-tay-ban-nha--em-santa",
@@ -1492,7 +2227,12 @@
       "audio": "audio/tieng-tay-ban-nha--em-santa.mp3",
       "duration": 5.2,
       "sizeKb": 41,
-      "script": "Hola y bienvenido. Descubre nuestra voz sintética con un sonido natural y agradable."
+      "script": "Hola y bienvenido. Descubre nuestra voz sintética con un sonido natural y agradable.",
+      "engine": "kokoro",
+      "model": "kokoro/v1.0",
+      "ref": "em_santa",
+      "lang": "es",
+      "g2p": "espeak"
     },
     {
       "id": "tieng-viet--adam",
@@ -1978,7 +2718,12 @@
       "audio": "audio/tieng-y--if-sara.mp3",
       "duration": 5.1,
       "sizeKb": 41,
-      "script": "Ciao e benvenuto. Ascolta la nostra voce sintetica dal suono naturale e piacevole."
+      "script": "Ciao e benvenuto. Ascolta la nostra voce sintetica dal suono naturale e piacevole.",
+      "engine": "kokoro",
+      "model": "kokoro/v1.0",
+      "ref": "if_sara",
+      "lang": "it",
+      "g2p": "espeak"
     },
     {
       "id": "tieng-y--im-nicola",
@@ -1987,7 +2732,12 @@
       "audio": "audio/tieng-y--im-nicola.mp3",
       "duration": 5.8,
       "sizeKb": 46,
-      "script": "Ciao e benvenuto. Ascolta la nostra voce sintetica dal suono naturale e piacevole."
+      "script": "Ciao e benvenuto. Ascolta la nostra voce sintetica dal suono naturale e piacevole.",
+      "engine": "kokoro",
+      "model": "kokoro/v1.0",
+      "ref": "im_nicola",
+      "lang": "it",
+      "g2p": "espeak"
     },
     {
       "id": "tieng-an-do--hf-alpha",
@@ -1996,7 +2746,12 @@
       "audio": "audio/tieng-an-do--hf-alpha.mp3",
       "duration": 5.6,
       "sizeKb": 44,
-      "script": "नमस्ते और स्वागत है। हमारी स्वाभाविक और स्पष्ट आवाज़ का अनुभव करें।"
+      "script": "नमस्ते और स्वागत है। हमारी स्वाभाविक और स्पष्ट आवाज़ का अनुभव करें।",
+      "engine": "kokoro",
+      "model": "kokoro/v1.0",
+      "ref": "hf_alpha",
+      "lang": "hi",
+      "g2p": "espeak"
     },
     {
       "id": "tieng-an-do--hf-beta",
@@ -2005,7 +2760,12 @@
       "audio": "audio/tieng-an-do--hf-beta.mp3",
       "duration": 4.7,
       "sizeKb": 38,
-      "script": "नमस्ते और स्वागत है। हमारी स्वाभाविक और स्पष्ट आवाज़ का अनुभव करें।"
+      "script": "नमस्ते और स्वागत है। हमारी स्वाभाविक और स्पष्ट आवाज़ का अनुभव करें।",
+      "engine": "kokoro",
+      "model": "kokoro/v1.0",
+      "ref": "hf_beta",
+      "lang": "hi",
+      "g2p": "espeak"
     },
     {
       "id": "tieng-an-do--hm-omega",
@@ -2014,7 +2774,12 @@
       "audio": "audio/tieng-an-do--hm-omega.mp3",
       "duration": 5.6,
       "sizeKb": 45,
-      "script": "नमस्ते और स्वागत है। हमारी स्वाभाविक और स्पष्ट आवाज़ का अनुभव करें।"
+      "script": "नमस्ते और स्वागत है। हमारी स्वाभाविक और स्पष्ट आवाज़ का अनुभव करें।",
+      "engine": "kokoro",
+      "model": "kokoro/v1.0",
+      "ref": "hm_omega",
+      "lang": "hi",
+      "g2p": "espeak"
     },
     {
       "id": "tieng-an-do--hm-psi",
@@ -2023,7 +2788,56 @@
       "audio": "audio/tieng-an-do--hm-psi.mp3",
       "duration": 5.5,
       "sizeKb": 44,
-      "script": "नमस्ते और स्वागत है। हमारी स्वाभाविक और स्पष्ट आवाज़ का अनुभव करें।"
+      "script": "नमस्ते और स्वागत है। हमारी स्वाभाविक और स्पष्ट आवाज़ का अनुभव करें।",
+      "engine": "kokoro",
+      "model": "kokoro/v1.0",
+      "ref": "hm_psi",
+      "lang": "hi",
+      "g2p": "espeak"
     }
-  ]
+  ],
+  "engines": {
+    "kokoro/v1.0": {
+      "label": "Bộ đa ngôn ngữ (Anh, Nhật, Pháp, Ý, TBN, Bồ, Ấn + 8 giọng Trung)",
+      "files": [
+        {
+          "as": "model.onnx",
+          "url": "https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/kokoro-v1.0.onnx",
+          "sha256": "7d5df8ecf7d4b1878015a32686053fd0eebe2bc377234608764cc0ef3636a6c5",
+          "bytes": 325532387
+        },
+        {
+          "as": "voices.bin",
+          "url": "https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/voices-v1.0.bin",
+          "sha256": "bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d",
+          "bytes": 28214398
+        }
+      ],
+      "bytes": 353746785
+    },
+    "kokoro/v1.1-zh": {
+      "label": "Bộ tiếng Trung (100 giọng)",
+      "files": [
+        {
+          "as": "model.onnx",
+          "url": "https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.1/kokoro-v1.1-zh.onnx",
+          "sha256": "eefec708cbc7aba8e8129b5c2f7cb92e1fe7d281af1e1dd451592d9ff0714a0d",
+          "bytes": 343605188
+        },
+        {
+          "as": "voices.bin",
+          "url": "https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.1/voices-v1.1-zh.bin",
+          "sha256": "14cb6186c99e4f6016871405f62046c5df863ae27465cbdc4ee08be7dd703acd",
+          "bytes": 53815880
+        },
+        {
+          "as": "config.json",
+          "url": "https://huggingface.co/hexgrad/Kokoro-82M-v1.1-zh/resolve/main/config.json",
+          "sha256": "bc333efa5ce4ceff433c8c8e5d027a1eca0166001e4e4a62bea2d26ff7a46890",
+          "bytes": 3228
+        }
+      ],
+      "bytes": 397424296
+    }
+  }
 }
