@@ -18,7 +18,16 @@ if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 HERE = Path(__file__).resolve().parent.parent
-VOICES_DIR = HERE.parent / "voices"
+GOC = HERE.parent
+
+# Kho giọng đã dời vào `tts-core/voices/`; thư mục `voices/` cũ ở gốc nay rỗng. Dò theo thứ tự
+# thay vì ghim một chỗ: ghim sai thì script vẫn chạy và sinh ra một danh mục RỖNG, mà trang web
+# nhận danh mục rỗng thì khách mở app thấy mất sạch giọng.
+VOICES_DIR = next(
+    (d for d in (GOC / "tts-core" / "voices", GOC / "voices") if d.is_dir() and any(d.iterdir())),
+    GOC / "voices",
+)
+PHAN_LOAI_FILE = GOC / "tts-core" / "phanloai_giong.json"
 AUDIO_OUT = HERE / "audio"
 DATA_OUT = HERE / "data" / "voices.json"
 
@@ -141,6 +150,46 @@ def read_script(txt_path: Path) -> str:
     return collapsed[:SCRIPT_PREVIEW_CHARS].rsplit(" ", 1)[0] + "…"
 
 
+def doc_phan_loai() -> dict:
+    """
+    Bảng giọng Việt -> thế hệ engine (`realmap` | `espeak`), dựng bằng cách đọc thử rồi nghe lại
+    bằng faster-whisper (xem `tts-core/TOM_TAT_CAP_NHAT_TTS.md`).
+
+    Vì sao phải có bảng này thay vì đọc config trong gói: đã đo cả 53 giọng — `espeak.voice` là
+    `"en-us"` thì chắc chắn realmap (25/25), nhưng `"vi"` thì lẫn lộn 21 realmap với 7 espeak.
+    Không có bảng thì app đưa nhầm engine, và giọng **vẫn ra tiếng nhưng không thành câu**.
+    """
+    if not PHAN_LOAI_FILE.exists():
+        print(f"  [!] khong thay {PHAN_LOAI_FILE.name} — moi giong Viet se mac dinh realmap")
+        return {}
+    return json.loads(PHAN_LOAI_FILE.read_text(encoding="utf-8"))
+
+
+PHAN_LOAI = doc_phan_loai()
+
+
+def piper_fields(lang_dir: Path, voice_dir: Path, name: str) -> dict:
+    """
+    Trường cho giọng **Piper**. Thiếu `g2p` = thế hệ realmap (đường mặc định, 46 giọng Việt).
+
+    Giọng ngoại ngữ Piper (18 giọng Anh) luôn đi đường espeak, và mã ngôn ngữ lấy từ chính
+    config của giọng — mỗi giọng một bản train khác nhau, có giọng ghi `en`, có giọng `en-us`.
+    """
+    if lang_dir.name == "Tiếng Việt":
+        if PHAN_LOAI.get(name, {}).get("engine") != "espeak":
+            return {}
+        return {"g2p": "espeak", "lang": "vi"}
+
+    cfg = voice_dir / f"{name}.onnx.json"
+    ma = "en-us"
+    if cfg.exists():
+        try:
+            ma = (json.loads(cfg.read_text(encoding="utf-8")).get("espeak") or {}).get("voice") or ma
+        except Exception:  # noqa: BLE001
+            pass
+    return {"g2p": "espeak", "lang": ma}
+
+
 def kokoro_fields(name: str) -> dict:
     """
     Các trường app cần để chạy một giọng Kokoro. Rỗng nếu đây là giọng Piper.
@@ -176,7 +225,8 @@ def build_voice_entry(lang_dir: Path, voice_dir: Path) -> dict | None:
         "duration": probe_duration(mp3_path),
         "sizeKb": round(mp3_path.stat().st_size / 1024),
         "script": read_script(voice_dir / f"{name}.txt"),
-        **kokoro_fields(name),
+        # Giọng Kokoro thì không phải giọng Piper — hai nhánh loại trừ nhau.
+        **(kokoro_fields(name) or piper_fields(lang_dir, voice_dir, name)),
     }
 
 
@@ -204,6 +254,11 @@ def main() -> int:
 
     # Chỉ khai bộ máy nào THẬT SỰ có giọng dùng tới. Khai thừa là app hiện một cục 350 MB cho
     # khách tải mà không giọng nào dùng.
+    es = [v for v in voices if v.get("g2p") == "espeak" and not v.get("engine")]
+    print(f"\n  giong Piper can espeak-ng: {len(es)}")
+    for v in es:
+        print(f"    {v['language']:14} {v['name']:22} lang={v['lang']}")
+
     dung_toi = {v["model"] for v in voices if v.get("model")}
     engines = {
         eid: {
