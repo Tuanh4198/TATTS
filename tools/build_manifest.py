@@ -88,8 +88,13 @@ ENGINES = {
             {
                 "as": "model.onnx",
                 "url": f"{KOKORO_GH}/model-files-v1.1/kokoro-v1.1-zh.onnx",
-                "sha256": "eefec708cbc7aba8e8129b5c2f7cb92e1fe7d281af1e1dd451592d9ff0714a0d",
-                "bytes": 343605188,
+                # Upstream ĐÃ THAY file này ngày 18/08/2026 (bản cũ 343.605.188 byte, sha
+                # eefec708…). Hash cũ làm mọi lượt tải bị từ chối ở bước kiểm toàn vẹn —
+                # phép kiểm làm đúng, chỉ là số liệu hết hạn. Bản mới nhẹ hơn và khai
+                # `speed` là float nên không cần vá byte nữa. Đã đo: nạp được, 103 giọng,
+                # đọc tiếng Trung sạch, 0 âm vị bị loại.
+                "sha256": "859f9ded9f53be16c24857cdab3254a45da53c3afd5ba6ef134c7de3f822e326",
+                "bytes": 325506167,
             },
             {
                 "as": "voices.bin",

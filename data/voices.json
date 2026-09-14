@@ -2871,8 +2871,8 @@
         {
           "as": "model.onnx",
           "url": "https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.1/kokoro-v1.1-zh.onnx",
-          "sha256": "eefec708cbc7aba8e8129b5c2f7cb92e1fe7d281af1e1dd451592d9ff0714a0d",
-          "bytes": 343605188
+          "sha256": "859f9ded9f53be16c24857cdab3254a45da53c3afd5ba6ef134c7de3f822e326",
+          "bytes": 325506167
         },
         {
           "as": "voices.bin",
@@ -2887,7 +2887,7 @@
           "bytes": 3228
         }
       ],
-      "bytes": 397424296
+      "bytes": 379325275
     }
   }
 }
